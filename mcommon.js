@@ -17,7 +17,7 @@ function decryptAES() {
             document.getElementById("toc-div").style.display         = "inline";
         }
     } catch (e) {
-        alert("密码错误！！");
+        alert(e);
     }
 }
 
