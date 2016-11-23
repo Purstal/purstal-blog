@@ -4,7 +4,7 @@ function decryptAES() {
         var content = CryptoJS.AES.decrypt(document.getElementById("encrypt-blog").innerHTML.trim(), pass);
         content = content.toString(CryptoJS.enc.Utf8);
         content = decodeBase64(content);
-        console.log(content);
+        //console.log(content);
         content = unescape(content);
         if (content == '') {
             alert("密码错误！！");
@@ -44,9 +44,9 @@ function decodeBase64(content) {
 
 // add enter to decrypt
 addLoadEvent(function() {
-    console.log('register');
+    //console.log('register');
     document.getElementById("pass").onkeypress = function(keyPressEvent) {
-        console.log(keyPressEvent.keyCode === 13);
+        //console.log(keyPressEvent.keyCode === 13);
         if (keyPressEvent.keyCode === 13) {
             decryptAES();
         }
