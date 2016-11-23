@@ -13,7 +13,7 @@ function decryptAES() {
             document.getElementById("encrypt-blog").innerHTML        = content;
             document.getElementById("encrypt-message").style.display = "none";
 
-            document.getElementById("security").style.display        = "none";
+            //document.getElementById("security").style.display        = "none";
             document.getElementById("toc-div").style.display         = "inline";
         }
     } catch (e) {
