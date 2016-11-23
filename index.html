@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civupskp20002nk28w9cdxu4s" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civupyuyb0006pr28yi92eivg" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sh脚本/">sh脚本</a></li></ul>
@@ -136,7 +136,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/一些Hexo插件的选取/" data-id="civupskov0000nk285gflewnp" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/一些Hexo插件的选取/" data-id="civupyuy50002pr28ljlxs6cr" class="article-share-link">Share</a>
       
       
     </footer>
@@ -173,12 +173,12 @@
     <div class="article-entry" itemprop="articleBody">
       
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本博文用于测试博客功能及插件功能. <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Test">[1]</span></a></sup></p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="keyword">type</span> String2 <span class="keyword">struct</span> &#123;</div><div class="line">  str1 <span class="keyword">string</span></div><div class="line">  str2 <span class="keyword">string</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="params">(s2 String2)</span> <span class="title">combine</span><span class="params">()</span> <span class="title">string</span></span> &#123;</div><div class="line">  <span class="keyword">return</span> str1 + <span class="string">" "</span> + str2</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">int</span> main() &#123;</div><div class="line">  <span class="keyword">var</span> ch = <span class="built_in">make</span>(<span class="keyword">chan</span> String2, <span class="number">0</span>)</div><div class="line">  </div><div class="line">  <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">([]<span class="keyword">byte</span> a, []<span class="keyword">byte</span> b)</span></span> &#123;</div><div class="line">    ch &lt;- String2 &#123;</div><div class="line">      str1: <span class="keyword">string</span>(a),</div><div class="line">      str2: <span class="keyword">string</span>(b),</div><div class="line">    &#125;</div><div class="line">  &#125; ([]<span class="keyword">byte</span>(<span class="string">"Hello"</span>), []<span class="keyword">byte</span> &#123;<span class="string">'w'</span>, <span class="string">'o'</span>, <span class="string">'r'</span>, <span class="string">'l'</span>, <span class="string">'d'</span>&#125;)</div><div class="line">  </div><div class="line">  fmt.Println((&lt;-ch).combine())</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="keyword">type</span> String2 <span class="keyword">struct</span> &#123;</div><div class="line">  str1 <span class="keyword">string</span></div><div class="line">  str2 <span class="keyword">string</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="params">(s2 String2)</span> <span class="title">combine</span><span class="params">()</span> <span class="title">string</span></span> &#123;</div><div class="line">  <span class="keyword">return</span> str1 + <span class="string">" "</span> + str2</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">int</span> main() &#123;</div><div class="line">  <span class="keyword">var</span> ch = <span class="built_in">make</span>(<span class="keyword">chan</span> String2, <span class="number">0</span>)</div><div class="line">  </div><div class="line">  <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">([]<span class="keyword">byte</span> a, []<span class="keyword">byte</span> b)</span></span> &#123;</div><div class="line">    ch &lt;- String2 &#123;</div><div class="line">      str1: <span class="keyword">string</span>(a),</div><div class="line">      str2: <span class="keyword">string</span>(b),</div><div class="line">    &#125;</div><div class="line">  &#125; ([]<span class="keyword">byte</span>(<span class="string">"Hello"</span>), []<span class="keyword">byte</span> &#123;<span class="string">'w'</span>, <span class="string">'o'</span>, <span class="string">'r'</span>, <span class="string">'l'</span>, <span class="string">'d'</span>&#125;)</div><div class="line">  </div><div class="line">  fmt.Println((&lt;-ch).combine())</div><div class="line">  <span class="built_in">close</span>(ch)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Test<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civupskp30003nk28tkktn0zi" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civupyuy30001pr2813i9s5zl" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/测试/">测试</a></li></ul>
@@ -226,7 +226,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civupskpa0005nk28qoi1w9jd" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civupyuya0005pr28bqrbscw4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -271,7 +271,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civupskoz0001nk28ycl9fjr5" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civupyuxz0000pr281jjij4cj" class="article-share-link">Share</a>
       
       
     </footer>
