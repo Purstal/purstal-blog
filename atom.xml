@@ -38,24 +38,6 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2016/11/23/test/"/>
-    <id>http://yoursite.com/2016/11/23/test/</id>
-    <published>2016-11-23T04:46:44.000Z</published>
-    <updated>2016-11-23T04:46:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>测试用博文</title>
     <link href="http://yoursite.com/2016/11/23/%E6%B5%8B%E8%AF%95%E7%94%A8%E5%8D%9A%E6%96%87/"/>
     <id>http://yoursite.com/2016/11/23/测试用博文/</id>
