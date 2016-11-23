@@ -65,30 +65,6 @@
   </entry>
   
   <entry>
-    <title>测试用博文</title>
-    <link href="http://blog.unown.moe/2016/11/23/%E6%B5%8B%E8%AF%95%E7%94%A8%E5%8D%9A%E6%96%87/"/>
-    <id>http://blog.unown.moe/2016/11/23/测试用博文/</id>
-    <published>2016-11-23T02:41:40.000Z</published>
-    <updated>2016-11-23T09:20:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本博文用于测试博客功能及插件功能. <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Test">[1]</span></a></sup></p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="keyword">type</span> String2 <span class="keyword">struct</span> &#123;</div><div class="line">  str1 <span class="keyword">string</span></div><div class="line">  str2 <span class="keyword">string</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="params">(s2 String2)</span> <span class="title">combine</span><span class="params">()</span> <span class="title">string</span></span> &#123;</div><div class="line">  <span class="keyword">return</span> str1 + <span class="string">" "</span> + str2</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">int</span> main() &#123;</div><div class="line">  <span class="keyword">var</span> ch = <span class="built_in">make</span>(<span class="keyword">chan</span> String2, <span class="number">0</span>)</div><div class="line">  </div><div class="line">  <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">([]<span class="keyword">byte</span> a, []<span class="keyword">byte</span> b)</span></span> &#123;</div><div class="line">    ch &lt;- String2 &#123;</div><div class="line">      str1: <span class="keyword">string</span>(a),</div><div class="line">      str2: <span class="keyword">string</span>(b),</div><div class="line">    &#125;</div><div class="line">  &#125; ([]<span class="keyword">byte</span>(<span class="string">"Hello"</span>), []<span class="keyword">byte</span> &#123;<span class="string">'w'</span>, <span class="string">'o'</span>, <span class="string">'r'</span>, <span class="string">'l'</span>, <span class="string">'d'</span>&#125;)</div><div class="line">  </div><div class="line">  fmt.Println((&lt;-ch).combine())</div><div class="line">  <span class="built_in">close</span>(ch)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Test<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;本博文用于测试博客功能及插件功能. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a
-    
-    </summary>
-    
-      <category term="测试" scheme="http://blog.unown.moe/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="测试" scheme="http://blog.unown.moe/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>第一贴</title>
     <link href="http://blog.unown.moe/2016/11/23/%E7%AC%AC%E4%B8%80%E8%B4%B4/"/>
     <id>http://blog.unown.moe/2016/11/23/第一贴/</id>
