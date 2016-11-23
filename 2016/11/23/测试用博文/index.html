@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="Unown Hearn's BLOG">
 <meta property="og:description" content="本博文用于测试博客功能及插件功能. [1]
 12345678910111213141516171819202122232425package mainimport &quot;fmt&quot;type String2 struct &amp;#123;  str1 string  str2 string&amp;#125;func (s2 String2) combine() string &amp;#123;  return str1">
-<meta property="og:updated_time" content="2016-11-23T08:59:09.000Z">
+<meta property="og:updated_time" content="2016-11-23T09:03:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="测试用博文">
 <meta name="twitter:description" content="本博文用于测试博客功能及插件功能. [1]
@@ -61,7 +61,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.unown.moe"></form>
@@ -97,12 +97,12 @@
     <div class="article-entry" itemprop="articleBody">
       
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本博文用于测试博客功能及插件功能. <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Test">[1]</span></a></sup></p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="keyword">type</span> String2 <span class="keyword">struct</span> &#123;</div><div class="line">  str1 <span class="keyword">string</span></div><div class="line">  str2 <span class="keyword">string</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="params">(s2 String2)</span> <span class="title">combine</span><span class="params">()</span> <span class="title">string</span></span> &#123;</div><div class="line">  <span class="keyword">return</span> str1 + <span class="string">" "</span> + str2</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">int</span> main() &#123;</div><div class="line">  <span class="keyword">var</span> ch = <span class="built_in">make</span>(<span class="keyword">chan</span> String2, <span class="number">0</span>)</div><div class="line">  </div><div class="line">  <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">([]<span class="keyword">byte</span> a, []<span class="keyword">byte</span> b)</span></span> &#123;</div><div class="line">    ch &lt;- String2 &#123;</div><div class="line">      str1: <span class="keyword">string</span>(a),</div><div class="line">      str2: <span class="keyword">string</span>(b),</div><div class="line">    &#125;</div><div class="line">  &#125; ([]<span class="keyword">byte</span>(<span class="string">"Hello"</span>), []<span class="keyword">byte</span> &#123;<span class="string">'w'</span>, <span class="string">'o'</span>, <span class="string">'r'</span>, <span class="string">'l'</span>, <span class="string">'d'</span>&#125;)</div><div class="line">  </div><div class="line">  fmt.Println((&lt;-ch).combine)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="keyword">type</span> String2 <span class="keyword">struct</span> &#123;</div><div class="line">  str1 <span class="keyword">string</span></div><div class="line">  str2 <span class="keyword">string</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="params">(s2 String2)</span> <span class="title">combine</span><span class="params">()</span> <span class="title">string</span></span> &#123;</div><div class="line">  <span class="keyword">return</span> str1 + <span class="string">" "</span> + str2</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">int</span> main() &#123;</div><div class="line">  <span class="keyword">var</span> ch = <span class="built_in">make</span>(<span class="keyword">chan</span> String2, <span class="number">0</span>)</div><div class="line">  </div><div class="line">  <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">([]<span class="keyword">byte</span> a, []<span class="keyword">byte</span> b)</span></span> &#123;</div><div class="line">    ch &lt;- String2 &#123;</div><div class="line">      str1: <span class="keyword">string</span>(a),</div><div class="line">      str2: <span class="keyword">string</span>(b),</div><div class="line">    &#125;</div><div class="line">  &#125; ([]<span class="keyword">byte</span>(<span class="string">"Hello"</span>), []<span class="keyword">byte</span> &#123;<span class="string">'w'</span>, <span class="string">'o'</span>, <span class="string">'r'</span>, <span class="string">'l'</span>, <span class="string">'d'</span>&#125;)</div><div class="line">  </div><div class="line">  fmt.Println((&lt;-ch).combine())</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Test<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civupc7tt0001em2862rd518q" class="article-share-link">Delen</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civupd9010003gc28ugnrf4mn" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/测试/">测试</a></li></ul>
@@ -114,7 +114,7 @@
 <nav id="article-nav">
   
     <a href="/2016/11/23/一些Hexo插件的选取/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Nieuwer</strong>
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
           一些Hexo插件的选取
@@ -124,7 +124,7 @@
   
   
     <a href="/2016/11/23/第一贴/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ouder</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">第一贴</div>
     </a>
   
@@ -139,7 +139,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Categorieën</h3>
+    <h3 class="widget-title">Categories</h3>
     <div class="widget">
       <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a></li></ul>
     </div>
@@ -149,7 +149,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Labels</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/sh脚本-hexo/">sh脚本 hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a></li></ul>
     </div>
@@ -168,7 +168,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
     </div>
@@ -178,7 +178,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
