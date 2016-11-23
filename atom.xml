@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Unown Hearn&#39;s BLOG</title>
+  <subtitle>~UN的小窝~</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-11-23T06:04:53.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>unown (hearnxu@gmail.com)</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些Hexo插件的选取</title>
+    <link href="http://yoursite.com/2016/11/23/%E4%B8%80%E4%BA%9BHexo%E6%8F%92%E4%BB%B6%E7%9A%84%E9%80%89%E5%8F%96/"/>
+    <id>http://yoursite.com/2016/11/23/一些Hexo插件的选取/</id>
+    <published>2016-11-23T04:47:55.000Z</published>
+    <updated>2016-11-23T06:04:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>搜索: algolia</p>
+<p>评论: disqus</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;搜索: algolia&lt;/p&gt;
+&lt;p&gt;评论: disqus&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2016/11/23/test/"/>
+    <id>http://yoursite.com/2016/11/23/test/</id>
+    <published>2016-11-23T04:46:44.000Z</published>
+    <updated>2016-11-23T04:46:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试用博文</title>
+    <link href="http://yoursite.com/2016/11/23/%E6%B5%8B%E8%AF%95%E7%94%A8%E5%8D%9A%E6%96%87/"/>
+    <id>http://yoursite.com/2016/11/23/测试用博文/</id>
+    <published>2016-11-23T02:41:40.000Z</published>
+    <updated>2016-11-23T06:06:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本博文用于测试博客功能及插件功能. <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Test">[1]</span></a></sup></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Test<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;本博文用于测试博客功能及插件功能. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一贴</title>
+    <link href="http://yoursite.com/2016/11/23/%E7%AC%AC%E4%B8%80%E8%B4%B4/"/>
+    <id>http://yoursite.com/2016/11/23/第一贴/</id>
+    <published>2016-11-22T16:33:17.000Z</published>
+    <updated>2016-11-22T16:46:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这是我的第一篇博文.</p>
+<p>现在已经是深夜了, 暂时也想不到什么, 就先这样吧~</p>
+<p>第一篇博文只是这么草草了事, 感觉还有点小遗憾呢…</p>
+<hr>
+<p>说起来, 其实现在这个博客站还没有正式搭好.</p>
+<p>一是比如评论, tag, 搜索等很多相关的插件还没有装好.</p>
+<p>二是这里还仅仅是挂在github pages上. 本来有用七牛对象存储的打算, 但是却因为网站没有备案被拒绝了. 顺便一提, 现在网站的域名是<code>blog.unown.moe</code>, github pags 服务的域名则是<code>purstal.github.io</code>.</p>
+<p>还有, 虽然本地要做的事情也不麻烦, 不过也还是有变得更方便的余地的, 就不展开了.</p>
+<hr>
+<p>嘛, 先睡了~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;这是我的第一篇博文.&lt;/p&gt;
+&lt;p&gt;现在已经是深夜了, 暂时也想不到什么, 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/11/22/hello-world/"/>
+    <id>http://yoursite.com/2016/11/22/hello-world/</id>
+    <published>2016-11-22T13:41:04.000Z</published>
+    <updated>2016-11-22T13:41:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; 
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
