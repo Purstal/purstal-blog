@@ -95,7 +95,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civwb7vn10006mm281h4p35qe" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civwbcd670005p928987emmic" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -137,15 +137,15 @@
 </blockquote>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">LCM</span><span class="params">(a, b)</span>:</span></div><div class="line">	c = GCD(a, b)</div><div class="line">	<span class="keyword">return</span> a * b / c</div></pre></td></tr></table></figure>
 <h4 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdint.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdbool.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="comment">/*</span></div><div class="line">Lowest Common Multiple Plus</div><div class="line"></div><div class="line">Problem Description</div><div class="line">求n个数的最小公倍数。</div><div class="line"></div><div class="line">Input</div><div class="line">输入包含多个测试实例，每个测试实例的开始是一个正整数n，然后是n个正整数。</div><div class="line"></div><div class="line">Output</div><div class="line">为每组测试数据输出它们的最小公倍数，每个测试实例的输出占一行。你可以假设最后的输出是一个32位的整数。</div><div class="line"></div><div class="line">Sample Input</div><div class="line">2 4 6</div><div class="line">3 2 5 7</div><div class="line"></div><div class="line">Sample Output</div><div class="line">12</div><div class="line">70</div><div class="line">*/</div><div class="line"></div><div class="line"><span class="keyword">uint32_t</span> gcd(<span class="keyword">uint32_t</span> a, <span class="keyword">uint32_t</span> b) &#123;</div><div class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span> == <span class="number">0</span> &amp;&amp; b%<span class="number">2</span> == <span class="number">0</span>) &#123;a&gt;&gt;=<span class="number">1</span>;b&gt;&gt;=<span class="number">1</span>;c++;&#125;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a&gt;&gt;=<span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span> (b%<span class="number">2</span>==<span class="number">0</span>) b&gt;&gt;=<span class="number">1</span>;</div><div class="line"></div><div class="line">    <span class="keyword">while</span> (<span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">if</span> (a &lt; b) &#123;</div><div class="line">            <span class="keyword">uint32_t</span> temp = a;</div><div class="line">            a = b;</div><div class="line">            b = temp;</div><div class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a==b) <span class="keyword">break</span>;</div><div class="line">        a = (a+b) &gt;&gt; <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a&gt;&gt;=<span class="number">1</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> b &lt;&lt; c;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">uint32_t</span> lcm(a, b) &#123; <span class="comment">//意外地发现clang可以省略参数的类型...</span></div><div class="line">    <span class="keyword">return</span> a / gcd(a, b) * b;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="meta">#<span class="meta-keyword">ifdef</span> DEBUG</span></div><div class="line">    freopen(<span class="string">"2028.testcase.example.in"</span>, <span class="string">"r"</span>, <span class="built_in">stdin</span>);</div><div class="line">    <span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">// DEBUG</span></span></div><div class="line"></div><div class="line">    <span class="keyword">while</span> (<span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">uint32_t</span> result = <span class="number">0</span>;</div><div class="line">        <span class="keyword">char</span> c;</div><div class="line">        <span class="keyword">while</span> (<span class="number">1</span>) &#123;</div><div class="line">            <span class="keyword">uint32_t</span> n;</div><div class="line">            <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n);</div><div class="line">            <span class="keyword">if</span> (result!=<span class="number">0</span>) result = lcm(result, n);</div><div class="line">            <span class="keyword">else</span> result = n;</div><div class="line">            </div><div class="line">            <span class="meta">#<span class="meta-keyword">ifdef</span> DEBUG</span></div><div class="line">            <span class="built_in">printf</span>(<span class="string">"(%d, %d)"</span>, n, result);            </div><div class="line">            <span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">// DEBUG</span></span></div><div class="line">            </div><div class="line">            <span class="keyword">while</span> ((c=getchar())==<span class="string">' '</span>);<span class="comment">//=' '&amp;&amp;c!='\n'&amp;&amp;c!=EOF);</span></div><div class="line">            <span class="keyword">if</span> (c==EOF || c==<span class="string">'\n'</span>) <span class="keyword">break</span>;</div><div class="line">            ungetc(c, <span class="built_in">stdin</span>);</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, result);</div><div class="line">        <span class="keyword">if</span> (c==EOF) <span class="keyword">break</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p><img src="/Users/unown/Desktop/Screen Shot 2016-11-24 at 7.57.16 PM.png" alt="Screen Shot 2016-11-24 at 7.57.16 PM"></p>
+<p><img src="/images/Screen Shot 2016-11-24 at 7.57.16 PM.png" alt="Screen Shot 2016-11-24 at 7.57.16 PM"></p>
 <p>↑这样例数据明显有问题吧….</p>
-<p><img src="/Users/unown/Desktop/Screen Shot 2016-11-24 at 8.01.38 PM.png" alt="Screen Shot 2016-11-24 at 8.01.38 PM"></p>
-<p>​:joy:​WA了</p>
+<p><img src="/images/Screen Shot 2016-11-24 at 8.01.38 PM.png" alt="Screen Shot 2016-11-24 at 8.01.38 PM"></p>
+<p>:joy:WA了</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="civwb7vmr0001mm2827izzqv5" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="civwbcd5x0001p928vg6v4ou5" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -190,7 +190,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="civwb7vn50009mm28wff3m8fu" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="civwbcd680006p92839tudclb" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日记-2016-11-24/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -240,7 +240,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civwb7vn10005mm28juxqcvjv" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civwbcd6a0008p928jkdh45zx" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -285,7 +285,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civwb7vmu0002mm28fc3cewsn" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civwbcd600002p928yk66lte0" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -334,7 +334,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civwb7vn30008mm282ap1omf4" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civwbcd6d0009p928mvd3xjtw" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/测试用博文/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -384,7 +384,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civwb7vn7000cmm28k89teto5" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civwbcd6e000bp928fscfyqfk" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/第一贴/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -431,7 +431,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civwb7vmz0004mm28x2hve1w2" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civwbcd650004p9283rwd591h" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
