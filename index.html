@@ -101,7 +101,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civvycd0y0002ha28zn0ji7ih" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civw038b700036g28ykx40u1t" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -141,12 +141,12 @@
 <p>一键生成&amp;部署hexo博客:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"><span class="built_in">echo</span> 生成中...</div><div class="line"></div><div class="line"><span class="comment"># 如果生成出现问题, 可以试试取消注释以下两句. </span></div><div class="line"><span class="comment"># 不过如果这么做, 阁下每次都要完全重新编译一遍文章...</span></div><div class="line">    <span class="comment">#hexo clean</span></div><div class="line">    <span class="comment">#hexo g</span></div><div class="line">rm -rf ./public/</div><div class="line"></div><div class="line">hexo g</div><div class="line"></div><div class="line"><span class="comment">#cp CNAME ./public/</span></div><div class="line"><span class="comment">#for f in ./addition/*</span></div><div class="line"><span class="comment">#do</span></div><div class="line"><span class="comment">#    cp -rf $f ./public/</span></div><div class="line"><span class="comment">#done</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 生成完毕~</div><div class="line"></div><div class="line"><span class="built_in">echo</span> 部署中...</div><div class="line">hexo d</div><div class="line"><span class="built_in">echo</span> 部署完毕~</div></pre></td></tr></table></figure>
 <p>新建博文并用typora打开:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">test</span> -z <span class="variable">$1</span></div><div class="line"><span class="keyword">then</span></div><div class="line">    <span class="built_in">read</span> -p <span class="string">'请输入文章标题:'</span> para</div><div class="line"><span class="keyword">else</span></div><div class="line">    para=<span class="variable">$1</span></div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line">ret=`hexo n <span class="variable">$para</span>`</div><div class="line">file=`<span class="built_in">echo</span> <span class="variable">$ret</span> |sed <span class="string">'s/INFO Created: ~\(.*\)/\1/g'</span>`</div><div class="line">open <span class="_">-a</span> typora ~/<span class="variable">$file</span> <span class="comment"># 如果阁下是用MacOS, 请确保安装了typora. 如果阁下用的不是MacOS, 这里需要自行修改.</span></div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">test</span> -z <span class="variable">$1</span></div><div class="line"><span class="keyword">then</span></div><div class="line">    <span class="built_in">read</span> -p <span class="string">'请输入文章标题:'</span> para</div><div class="line"><span class="keyword">else</span></div><div class="line">    para=<span class="variable">$@</span></div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line">ret=`hexo n <span class="string">"<span class="variable">$para</span>"</span>`</div><div class="line">file=`<span class="built_in">echo</span> <span class="variable">$ret</span> |sed <span class="string">'s/INFO Created: ~\(.*\)/\1/g'</span>`</div><div class="line">open <span class="_">-a</span> typora ~/<span class="variable">$file</span> <span class="comment"># 如果阁下是用MacOS, 请确保安装了typora. 如果阁下用的不是MacOS, 这里需要自行修改.</span></div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civvycd100003ha28j5hayech" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civw038b500026g28lrgyedf4" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -195,7 +195,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civvycd150005ha28qzdsepso" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civw038bc00056g28fgpgdb3j" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/测试用博文/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -245,7 +245,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civvycd160006ha2832w6e9b0" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civw038bp000f6g280exoqwha" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/第一贴/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -292,7 +292,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civvycd0v0001ha28xf9sbb7j" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civw038b000016g28zp18ql0j" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
