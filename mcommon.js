@@ -19,7 +19,10 @@ function decryptAES() {
             if (toc_div != null) toc_div.style.display = "inline";
         }
     } catch (e) {
-        alert(e);
+        //alert(e);
+        console.log("如果密码无误, 可参考本异常:");
+        console.log(e);
+        alert("密码错误！！");
     }
 }
 
