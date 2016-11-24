@@ -93,13 +93,13 @@
 </blockquote>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><p>能有啥思路…</p>
 <h4 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h4><p>第29行改成<code>p1&lt;=p2</code>依旧能通过样例, 误WA了一次…</p>
-<p> <img src="/source/images/Screen Shot 2016-11-24 at 11.41.14 PM.png" alt="Screen Shot 2016-11-24 at 11.41.14 PM"></p>
+<p> <img src="/images/Screen Shot 2016-11-24 at 11.41.14 PM.png" alt="Screen Shot 2016-11-24 at 11.41.14 PM"></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdbool.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> LINE_MAX 100</span></div><div class="line"></div><div class="line"><span class="keyword">char</span> line[LINE_MAX];</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n);</div><div class="line">    <span class="keyword">while</span> (getchar() != <span class="string">'\n'</span>);</div><div class="line">    <span class="keyword">while</span> (n--) &#123;</div><div class="line">        <span class="keyword">int</span> p2 = <span class="number">0</span>;</div><div class="line">        <span class="keyword">while</span> (p2&lt;LINE_MAX<span class="number">-1</span> &amp;&amp; (line[p2]=getchar())!=<span class="string">'\n'</span> &amp;&amp; line[p2] != EOF) p2++;</div><div class="line"></div><div class="line">        line[p2] = <span class="string">'\0'</span>;</div><div class="line"></div><div class="line">        p2--;</div><div class="line">        <span class="keyword">int</span> p1 = <span class="number">0</span>;</div><div class="line">        <span class="keyword">bool</span> isPalindromes = <span class="literal">true</span>;</div><div class="line">        <span class="comment">//printf("%d %d", p1, p2);</span></div><div class="line">        <span class="keyword">while</span> (<span class="number">1</span>) &#123;</div><div class="line">            <span class="keyword">if</span> (line[p1]!=line[p2]) &#123;</div><div class="line">                isPalindromes = <span class="literal">false</span>;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            &#125;</div><div class="line">            p1++;</div><div class="line">            p2--;</div><div class="line">            <span class="keyword">if</span> (p1&gt;=p2) <span class="keyword">break</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"%s\n"</span>, isPalindromes ? <span class="string">"yes"</span>:<span class="string">"no"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="civwjei8j0003q128riw3ycf3" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="civwjgljh0001rv280z8zpf80" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -143,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civwjei8u0008q12822ag6z3q" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civwjglka0008rv28d2cu7wa1" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -192,7 +192,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="civwjei870000q128lcf9qltf" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="civwjglj70000rv2878lo4kxp" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -237,7 +237,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="civwjei8s0007q128bnk72bvn" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="civwjglk80007rv2845n0d9d7" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日记-2016-11-24/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -287,7 +287,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civwjei8o0005q1289hg71og1" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civwjglk10005rv28e739nip7" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -332,7 +332,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civwjei8k0004q128qyo76wd9" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civwjgljv0004rv28qd5d6kvi" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -381,7 +381,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civwjei8z000aq128bv31qb6o" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civwjglkg000arv2870s7t3gv" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/测试用博文/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -431,7 +431,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civwjei90000cq128u9eo187i" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civwjglki000crv28u2wuk89c" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/第一贴/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -478,7 +478,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civwjei8c0001q128v6ve07e4" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civwjgljs0003rv28d7eboy2l" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
