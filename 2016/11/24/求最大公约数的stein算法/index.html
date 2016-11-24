@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>求最大公约数的stein算法 | Unown Hearn&#39;s BLOG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="stein算法, 个人认为算是更相减损法的改进版. 此算法在计算大数间的最大公约数时更有优势. 详见英文维基百科相关词条[1].
+1234567891011121314151617181920212223242526272829303132#include &amp;lt;stdio.h&amp;gt;int gcd_stein(int a, int b);int main() &amp;#123;    int a,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="求最大公约数的stein算法">
+<meta property="og:url" content="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/index.html">
+<meta property="og:site_name" content="Unown Hearn's BLOG">
+<meta property="og:description" content="stein算法, 个人认为算是更相减损法的改进版. 此算法在计算大数间的最大公约数时更有优势. 详见英文维基百科相关词条[1].
+1234567891011121314151617181920212223242526272829303132#include &amp;lt;stdio.h&amp;gt;int gcd_stein(int a, int b);int main() &amp;#123;    int a,">
+<meta property="og:updated_time" content="2016-11-24T10:22:48.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="求最大公约数的stein算法">
+<meta name="twitter:description" content="stein算法, 个人认为算是更相减损法的改进版. 此算法在计算大数间的最大公约数时更有优势. 详见英文维基百科相关词条[1].
+1234567891011121314151617181920212223242526272829303132#include &amp;lt;stdio.h&amp;gt;int gcd_stein(int a, int b);int main() &amp;#123;    int a,">
+  
+    <link rel="alternate" href="/atom.xml" title="Unown Hearn&#39;s BLOG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Unown Hearn&#39;s BLOG</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">~UN的小窝~</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.unown.moe"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-求最大公约数的stein算法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/11/24/求最大公约数的stein算法/" class="article-date">
+  <time datetime="2016-11-24T08:26:01.000Z" itemprop="datePublished">2016-11-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      求最大公约数的stein算法
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code>stein算法</code>, 个人认为算是<code>更相减损法</code>的改进版. 此算法在计算大数间的最大公约数时更有优势. 详见英文维基百科相关词条<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="https://en.wikipedia.org/wiki/Binary_GCD_algorithm">[1]</span></a></sup>.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> a, b;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;a, &amp;b);</div><div class="line">    <span class="keyword">int</span> result = gcd_stein(a, b);</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, result);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span> &amp;&amp; b%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">        a &gt;&gt;= <span class="number">1</span>;</div><div class="line">        b &gt;&gt;= <span class="number">1</span>;</div><div class="line">        c++;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span> (b%<span class="number">2</span>==<span class="number">0</span>) b &gt;&gt;= <span class="number">1</span>;</div><div class="line"></div><div class="line">    <span class="keyword">do</span> &#123;</div><div class="line">        <span class="keyword">if</span> (a &lt; b) &#123;</div><div class="line">            <span class="keyword">int</span> temp = a;</div><div class="line">            a = b;</div><div class="line">            b = temp;</div><div class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a == b) <span class="keyword">break</span>;</div><div class="line">        a = (a - b) &gt;&gt; <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (a%<span class="number">2</span> == <span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    &#125; <span class="keyword">while</span> (<span class="number">1</span>);</div><div class="line">    <span class="keyword">return</span> b &lt;&lt; c;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>附带Go语言版本:</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> a, b <span class="keyword">int</span></div><div class="line">	fmt.Scanf(<span class="string">"%d%d"</span>, &amp;a, &amp;b)</div><div class="line">	<span class="keyword">var</span> result = gcdStein(a, b)</div><div class="line">	fmt.Println(result)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">gcdStein</span><span class="params">(a, b <span class="keyword">int</span>)</span> <span class="title">int</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> c = <span class="number">0</span></div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &amp;&amp; b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span> <span class="comment">// Go的位移计算只能用在无符号整数上...</span></div><div class="line">		b /= <span class="number">2</span></div><div class="line">		c++</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		b /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">for</span> &#123;</div><div class="line">		<span class="keyword">if</span> a &lt; b &#123;</div><div class="line">			a, b = b, a</div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> a == b &#123;</div><div class="line">			<span class="keyword">break</span></div><div class="line">		&#125;</div><div class="line">		a = (a + b) &gt;&gt; <span class="number">1</span></div><div class="line">		<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">			a /= <span class="number">2</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> ; c != <span class="number">0</span>; c-- &#123;</div><div class="line">		b *= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> b</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Binary_GCD_algorithm" target="_blank" rel="external">https://en.wikipedia.org/wiki/Binary_GCD_algorithm</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civw7nrti0004au28nk8qngl1" class="article-share-link">Share</a>
+      
+        <a href="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/算法-数论/">算法-数论</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/11/24/Solution-HDU-2028/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Solution-HDU-2028</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hdu/">hdu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sh脚本/">sh脚本</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/solution/">solution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法-数论/">算法-数论</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/hdu/" style="font-size: 10px;">hdu</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/sh脚本/" style="font-size: 10px;">sh脚本</a> <a href="/tags/solution/" style="font-size: 10px;">solution</a> <a href="/tags/日记/" style="font-size: 10px;">日记</a> <a href="/tags/测试/" style="font-size: 10px;">测试</a> <a href="/tags/算法-数论/" style="font-size: 10px;">算法-数论</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/11/24/求最大公约数的stein算法/">求最大公约数的stein算法</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/24/Solution-HDU-2028/">Solution-HDU-2028</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/24/日记-2016-11-24/">日记 2016-11-24</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/24/日后可以考虑的一些改进/">日后可以考虑的一些改进</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/23/两个简化hexo操作的小脚本/">两个简化hexo操作的小脚本</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 unown (hearnxu@gmail.com)<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'unown-hearn-blog';
+  
+  var disqus_url = 'http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
