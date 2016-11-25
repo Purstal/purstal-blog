@@ -3,21 +3,41 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World | Unown Hearn&#39;s BLOG</title>
+  <title>Solution-HDU-2032 杨辉三角 | Unown Hearn&#39;s BLOG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+  <meta name="description" content="原题: http://acm.hdu.edu.cn/showproblem.php?pid=2032
+思路观察杨辉三角.
+对于第n行第m个数N~m~, 总满足:
+N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.
+
+实现
+其实第17行~21行是试出来的😜.
+1234567891011121314151617181920212223242526#include &amp;lt;stdio">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://blog.unown.moe/2016/11/22/hello-world/index.html">
+<meta property="og:title" content="Solution-HDU-2032 杨辉三角">
+<meta property="og:url" content="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/index.html">
 <meta property="og:site_name" content="Unown Hearn's BLOG">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-11-22T13:41:04.000Z">
+<meta property="og:description" content="原题: http://acm.hdu.edu.cn/showproblem.php?pid=2032
+思路观察杨辉三角.
+对于第n行第m个数N~m~, 总满足:
+N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.
+
+实现
+其实第17行~21行是试出来的😜.
+1234567891011121314151617181920212223242526#include &amp;lt;stdio">
+<meta property="og:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-25 at 4.10.58 PM.png">
+<meta property="og:updated_time" content="2016-11-25T08:12:09.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="Solution-HDU-2032 杨辉三角">
+<meta name="twitter:description" content="原题: http://acm.hdu.edu.cn/showproblem.php?pid=2032
+思路观察杨辉三角.
+对于第n行第m个数N~m~, 总满足:
+N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.
+
+实现
+其实第17行~21行是试出来的😜.
+1234567891011121314151617181920212223242526#include &amp;lt;stdio">
+<meta name="twitter:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-25 at 4.10.58 PM.png">
   
     <link rel="alternate" href="/atom.xml" title="Unown Hearn&#39;s BLOG" type="application/atom+xml">
   
@@ -70,10 +90,10 @@ Quick">
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Solution-HDU-2032" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/11/22/hello-world/" class="article-date">
-  <time datetime="2016-11-22T13:41:04.000Z" itemprop="datePublished">2016-11-22</time>
+    <a href="/2016/11/25/Solution-HDU-2032/" class="article-date">
+  <time datetime="2016-11-25T08:02:47.000Z" itemprop="datePublished">2016-11-25</time>
 </a>
     
   </div>
@@ -84,7 +104,7 @@ Quick">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Solution-HDU-2032 杨辉三角
     </h1>
   
 
@@ -94,40 +114,37 @@ Quick">
       
         
   	    
-  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2032" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2032</a></p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><p>观察杨辉三角.</p>
+<p>对于第n行第m个数N~m~, 总满足:</p>
+<p>N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.</p>
+<hr>
+<h4 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h4><p><img src="/images/Screen Shot 2016-11-25 at 4.10.58 PM.png" alt="Screen Shot 2016-11-25 at 4.10.58 PM"></p>
+<p>其实第17行~21行是试出来的😜.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) == <span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n+<span class="number">1</span>; i++) &#123;</div><div class="line">            <span class="keyword">int</span> x = <span class="number">1</span>;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"1"</span>);</div><div class="line">            <span class="keyword">int</span> j = <span class="number">2</span>;</div><div class="line">            <span class="keyword">for</span> (; j<span class="number">-1</span> &lt;= (i<span class="number">-1</span>)/<span class="number">2</span>; j++) &#123;</div><div class="line">                x = (i-j+<span class="number">1</span>)*x/(j<span class="number">-1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (i%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            j--;</div><div class="line">            <span class="keyword">for</span> (; j &gt; <span class="number">1</span>; j--) &#123;</div><div class="line">                x = (j<span class="number">-1</span>)*x/(i-j+<span class="number">1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
   	    
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civxifi23000121286wa9n3tq" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/" data-id="civxifi1z00002128pasfcc0k" class="article-share-link">Share</a>
       
-        <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/#disqus_thread" class="article-comment-link">Comments</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HDU/">HDU</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/solution/">solution</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2016/11/23/第一贴/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          第一贴
-        
-      </div>
-    </a>
   
+    <a href="/2016/11/25/Solution-HDU-2031/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Solution-HDU-2031 进制转换</div>
+    </a>
   
 </nav>
 
@@ -238,7 +255,7 @@ Quick">
 <script>
   var disqus_shortname = 'unown-hearn-blog';
   
-  var disqus_url = 'http://blog.unown.moe/2016/11/22/hello-world/';
+  var disqus_url = 'http://blog.unown.moe/2016/11/25/Solution-HDU-2032/';
   
   (function(){
     var dsq = document.createElement('script');
