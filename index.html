@@ -102,7 +102,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="civx92nmj0001ay282qabqzh9" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="civx94vsh0001cs28msubcl8k" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -144,7 +144,7 @@
 <figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> a, b;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;a, &amp;b);</div><div class="line">    <span class="keyword">int</span> result = gcd_stein(a, b);</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, result);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span> &amp;&amp; b%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">        a &gt;&gt;= <span class="number">1</span>;</div><div class="line">        b &gt;&gt;= <span class="number">1</span>;</div><div class="line">        c++;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span> (b%<span class="number">2</span>==<span class="number">0</span>) b &gt;&gt;= <span class="number">1</span>;</div><div class="line"></div><div class="line">    <span class="keyword">do</span> &#123;</div><div class="line">        <span class="keyword">if</span> (a &lt; b) &#123;</div><div class="line">            <span class="keyword">int</span> temp = a;</div><div class="line">            a = b;</div><div class="line">            b = temp;</div><div class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a == b) <span class="keyword">break</span>;</div><div class="line">        a = (a - b) &gt;&gt; <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (a%<span class="number">2</span> == <span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    &#125; <span class="keyword">while</span> (<span class="number">1</span>);</div><div class="line">    <span class="keyword">return</span> b &lt;&lt; c;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>附带Go语言版本:</p>
 <figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> a, b <span class="keyword">int</span></div><div class="line">	fmt.Scanf(<span class="string">"%d%d"</span>, &amp;a, &amp;b)</div><div class="line">	<span class="keyword">var</span> result = gcdStein(a, b)</div><div class="line">	fmt.Println(result)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">gcdStein</span><span class="params">(a, b <span class="keyword">int</span>)</span> <span class="title">int</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> c = <span class="number">0</span></div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &amp;&amp; b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span> <span class="comment">// Go的位移计算只能用在无符号整数上...</span></div><div class="line">		b /= <span class="number">2</span></div><div class="line">		c++</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		b /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">for</span> &#123;</div><div class="line">		<span class="keyword">if</span> a &lt; b &#123;</div><div class="line">			a, b = b, a</div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> a == b &#123;</div><div class="line">			<span class="keyword">break</span></div><div class="line">		&#125;</div><div class="line">		a = (a + b) &gt;&gt; <span class="number">1</span></div><div class="line">		<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">			a /= <span class="number">2</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> ; c != <span class="number">0</span>; c-- &#123;</div><div class="line">		b *= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> b</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<div id="footnotes">
+<div id="footnotes"><hr>
   	      
             <p class="article-more-link">
               <a href="/2016/11/24/求最大公约数的stein算法/#more">Read More</a>
@@ -154,7 +154,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civx92nnc000aay28fw81h6gy" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="civx94vsz0008cs28k60yub6g" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -206,7 +206,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="civx92nmb0000ay28b8vo0pn9" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="civx94vsc0000cs28uf2c6yyw" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -251,7 +251,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="civx92nn30007ay28dmo84gtb" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="civx94vsw0007cs28l6ukpz7u" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日记-2016-11-24/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -304,7 +304,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civx92nmz0005ay28hbk7pn43" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="civx94vst0005cs28jfb0ybmr" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -352,7 +352,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civx92nmu0004ay28bvctb7x4" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civx94vso0003cs2862tw0fot" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -401,7 +401,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civx92nn50008ay28h3y7bwwr" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="civx94vt4000acs28hjfr9qas" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/测试用博文/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -442,7 +442,7 @@
   	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这是我的第一篇博文.</p>
 <p>现在已经是深夜了, 暂时也想不到什么, 就先这样吧~</p>
 <p>第一篇博文只是这么草草了事, 感觉还有点小遗憾呢…</p>
-
+<hr>
   	      
             <p class="article-more-link">
               <a href="/2016/11/23/第一贴/#more">Read More</a>
@@ -452,7 +452,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civx92nnf000day28bgq495lr" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="civx94vt5000ccs28d2arxhxw" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/第一贴/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -502,7 +502,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civx92nmr0003ay2822ubpiim" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="civx94vsq0004cs28wsc12jip" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
