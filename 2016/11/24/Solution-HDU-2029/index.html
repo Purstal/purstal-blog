@@ -9,10 +9,12 @@
 Problem Description
 “回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。请写一个程序判断读入的字符串是否是“回文”。
 
+
 思路能有啥思路…
+
 解答第29行改成p1&amp;lt;=p2依旧能通过样例, 误WA了一次…
  
-12345678910111">
+123456789101">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Solution-HDU-2029">
 <meta property="og:url" content="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/index.html">
@@ -21,22 +23,26 @@ Problem Description
 Problem Description
 “回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。请写一个程序判断读入的字符串是否是“回文”。
 
+
 思路能有啥思路…
+
 解答第29行改成p1&amp;lt;=p2依旧能通过样例, 误WA了一次…
  
-12345678910111">
+123456789101">
 <meta property="og:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-24 at 11.41.14 PM.png">
-<meta property="og:updated_time" content="2016-11-24T15:53:23.000Z">
+<meta property="og:updated_time" content="2016-11-25T03:55:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Solution-HDU-2029">
 <meta name="twitter:description" content="原题: http://acm.hdu.edu.cn/showproblem.php?pid=2029
 Problem Description
 “回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。请写一个程序判断读入的字符串是否是“回文”。
 
+
 思路能有啥思路…
+
 解答第29行改成p1&amp;lt;=p2依旧能通过样例, 误WA了一次…
  
-12345678910111">
+123456789101">
 <meta name="twitter:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-24 at 11.41.14 PM.png">
   
     <link rel="alternate" href="/atom.xml" title="Unown Hearn&#39;s BLOG" type="application/atom+xml">
@@ -118,7 +124,9 @@ Problem Description
 <h4 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h4><blockquote>
 <p>“回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。请写一个程序判断读入的字符串是否是“回文”。</p>
 </blockquote>
+<hr>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><p>能有啥思路…</p>
+<hr>
 <h4 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h4><p>第29行改成<code>p1&lt;=p2</code>依旧能通过样例, 误WA了一次…</p>
 <p> <img src="/images/Screen Shot 2016-11-24 at 11.41.14 PM.png" alt="Screen Shot 2016-11-24 at 11.41.14 PM"></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdbool.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> LINE_MAX 100</span></div><div class="line"></div><div class="line"><span class="keyword">char</span> line[LINE_MAX];</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n);</div><div class="line">    <span class="keyword">while</span> (getchar() != <span class="string">'\n'</span>);</div><div class="line">    <span class="keyword">while</span> (n--) &#123;</div><div class="line">        <span class="keyword">int</span> p2 = <span class="number">0</span>;</div><div class="line">        <span class="keyword">while</span> (p2&lt;LINE_MAX<span class="number">-1</span> &amp;&amp; (line[p2]=getchar())!=<span class="string">'\n'</span> &amp;&amp; line[p2] != EOF) p2++;</div><div class="line"></div><div class="line">        line[p2] = <span class="string">'\0'</span>;</div><div class="line"></div><div class="line">        p2--;</div><div class="line">        <span class="keyword">int</span> p1 = <span class="number">0</span>;</div><div class="line">        <span class="keyword">bool</span> isPalindromes = <span class="literal">true</span>;</div><div class="line">        <span class="comment">//printf("%d %d", p1, p2);</span></div><div class="line">        <span class="keyword">while</span> (<span class="number">1</span>) &#123;</div><div class="line">            <span class="keyword">if</span> (line[p1]!=line[p2]) &#123;</div><div class="line">                isPalindromes = <span class="literal">false</span>;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            &#125;</div><div class="line">            p1++;</div><div class="line">            p2--;</div><div class="line">            <span class="keyword">if</span> (p1&gt;=p2) <span class="keyword">break</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"%s\n"</span>, isPalindromes ? <span class="string">"yes"</span>:<span class="string">"no"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -127,7 +135,7 @@ Problem Description
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="civx94vsh0001cs28msubcl8k" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="civx98tdj0001er282f8xd6nu" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/#disqus_thread" class="article-comment-link">Comments</a>
       
