@@ -95,16 +95,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这里假设博客的本地目录是<code>~/Documents/hexo/blog</code>, 使用typora作为markdown编辑器.</p>
+        
+  	    
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这里假设博客的本地目录是<code>~/Documents/hexo/blog</code>, 使用typora作为markdown编辑器.</p>
 <p>一键生成&amp;部署hexo博客:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"><span class="built_in">echo</span> 生成中...</div><div class="line"></div><div class="line"><span class="comment"># 如果生成出现问题, 可以试试取消注释以下两句. </span></div><div class="line"><span class="comment"># 不过如果这么做, 阁下每次都要完全重新编译一遍文章...</span></div><div class="line">hexo clean <span class="comment"># 然而不执行它的话, 会有bug......</span></div><div class="line">    <span class="comment">#hexo g</span></div><div class="line">rm -rf ./public/</div><div class="line"></div><div class="line">hexo g</div><div class="line"></div><div class="line"><span class="comment"># 直接放在source目录下的话, 文件会被编译...</span></div><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> ./addition/*</div><div class="line"><span class="keyword">do</span></div><div class="line">    cp -rf <span class="variable">$f</span> ./public/</div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 生成完毕~</div><div class="line"></div><div class="line"><span class="built_in">echo</span> 部署中...</div><div class="line">hexo d</div><div class="line"><span class="built_in">echo</span> 部署完毕~</div></pre></td></tr></table></figure>
 <p>新建博文并用typora打开:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">test</span> -z <span class="variable">$1</span></div><div class="line"><span class="keyword">then</span></div><div class="line">    <span class="built_in">read</span> -p <span class="string">'请输入文章标题:'</span> para</div><div class="line"><span class="keyword">else</span></div><div class="line">    para=<span class="variable">$@</span></div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line">ret=`hexo n <span class="string">"<span class="variable">$para</span>"</span>`</div><div class="line">file=`<span class="built_in">echo</span> <span class="variable">$ret</span> |sed <span class="string">'s/INFO Created: ~\(.*\)/\1/g'</span>`</div><div class="line">open <span class="_">-a</span> typora ~/<span class="variable">$file</span> <span class="comment"># 如果阁下是用MacOS, 请确保安装了typora. 如果阁下用的不是MacOS, 这里需要自行修改.</span></div></pre></td></tr></table></figure>
 
+  	    
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civx89q0x00041l280ynojzdl" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="civx8qfmk00056828ksk38gzd" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -151,7 +154,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -161,7 +164,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hdu/">hdu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sh脚本/">sh脚本</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/solution/">solution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法-数论/">算法-数论</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hdu/">hdu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sh脚本/">sh脚本</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/solution/">solution</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法-数论/">算法-数论</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -180,7 +183,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">9</span></li></ul>
     </div>
   </div>
 
