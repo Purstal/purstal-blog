@@ -54,7 +54,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.unown.moe"></form>
@@ -64,6 +64,57 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-两个简化hexo操作的小脚本" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/11/23/两个简化hexo操作的小脚本/" class="article-date">
+  <time datetime="2016-11-23T08:25:48.000Z" itemprop="datePublished">2016-11-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/11/23/两个简化hexo操作的小脚本/">两个简化hexo操作的小脚本</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+  	    
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这里假设博客的本地目录是<code>~/Documents/hexo/blog</code>, 使用typora作为markdown编辑器.</p>
+<p>一键生成&amp;部署hexo博客:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"><span class="built_in">echo</span> 生成中...</div><div class="line"></div><div class="line"><span class="comment"># 如果生成出现问题, 可以试试取消注释以下两句. </span></div><div class="line"><span class="comment"># 不过如果这么做, 阁下每次都要完全重新编译一遍文章...</span></div><div class="line">hexo clean <span class="comment"># 然而不执行它的话, 会有bug......</span></div><div class="line">    <span class="comment">#hexo g</span></div><div class="line">rm -rf ./public/</div><div class="line"></div><div class="line">hexo g</div><div class="line"></div><div class="line"><span class="comment"># 直接放在source目录下的话, 文件会被编译...</span></div><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> ./addition/*</div><div class="line"><span class="keyword">do</span></div><div class="line">    cp -rf <span class="variable">$f</span> ./public/</div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 生成完毕~</div><div class="line"></div><div class="line"><span class="built_in">echo</span> 部署中...</div><div class="line">hexo d</div><div class="line"><span class="built_in">echo</span> 部署完毕~</div></pre></td></tr></table></figure>
+<hr>
+  	      
+            <p class="article-more-link">
+              <a href="/2016/11/23/两个简化hexo操作的小脚本/#more">Read More</a>
+            </p>
+          
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/" data-id="cix8jojxs000c2s28qgtsk0bh" class="article-share-link">Delen</a>
+      
+        <a href="http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/#disqus_thread" class="article-comment-link">Commentaren</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sh脚本/">sh脚本</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-测试用博文" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -100,9 +151,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="ciwlhk7f8000i33282jpyevp9" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/测试用博文/" data-id="cix8jojxw000i2s28qr7qm9te" class="article-share-link">Delen</a>
       
-        <a href="http://blog.unown.moe/2016/11/23/测试用博文/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://blog.unown.moe/2016/11/23/测试用博文/#disqus_thread" class="article-comment-link">Commentaren</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/测试/">测试</a></li></ul>
@@ -151,9 +202,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="ciwlhk7ft001c3328vho76a3y" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/23/第一贴/" data-id="cix8jojy1000o2s283t02axqh" class="article-share-link">Delen</a>
       
-        <a href="http://blog.unown.moe/2016/11/23/第一贴/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://blog.unown.moe/2016/11/23/第一贴/#disqus_thread" class="article-comment-link">Commentaren</a>
       
       
     </footer>
@@ -201,9 +252,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="ciwlhk7ew00073328i52pn7lj" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/22/hello-world/" data-id="cix8jojxn00082s284br5bzb3" class="article-share-link">Delen</a>
       
-        <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://blog.unown.moe/2016/11/22/hello-world/#disqus_thread" class="article-comment-link">Commentaren</a>
       
       
     </footer>
@@ -224,7 +275,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
+    <h3 class="widget-title">Categorieën</h3>
     <div class="widget">
       <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a><span class="category-list-count">1</span></li></ul>
     </div>
@@ -234,7 +285,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">Labels</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HDU/">HDU</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/contest/">contest</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sh脚本/">sh脚本</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/solution/">solution</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法-数论/">算法-数论</a><span class="tag-list-count">1</span></li></ul>
     </div>
@@ -253,9 +304,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archieven</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">13</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">13</span></li></ul>
     </div>
   </div>
 
@@ -263,9 +314,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Recente berichten</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2016/12/28/rmxp上的自动换行/">rmxp上最简单的自动换行</a>
+          </li>
         
           <li>
             <a href="/2016/11/28/QTU第五届交流赛补完/">QTU第五届交流赛补完 (施工中)</a>
@@ -281,10 +336,6 @@
         
           <li>
             <a href="/2016/11/25/Solution-HDU-2031/">Solution-HDU-2031 进制转换</a>
-          </li>
-        
-          <li>
-            <a href="/2016/11/24/Solution-HDU-2029/">Solution-HDU-2029</a>
           </li>
         
       </ul>
