@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>整理《Docker容器与容器云》一书2.3章节的内容 | Unown Hearn&#39;s BLOG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="章节标题: 搭建你的第一个Docker应用栈
+环境: Mac OS, Docker 1.13.1 for Mac
+仅用于自我学习(并非完整内容)
+Step 1. 获取镜像国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.
+不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.
+我使用的是DaoCloud提供的(免费使用">
+<meta property="og:type" content="article">
+<meta property="og:title" content="整理《Docker容器与容器云》一书2.3章节的内容">
+<meta property="og:url" content="http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/index.html">
+<meta property="og:site_name" content="Unown Hearn's BLOG">
+<meta property="og:description" content="章节标题: 搭建你的第一个Docker应用栈
+环境: Mac OS, Docker 1.13.1 for Mac
+仅用于自我学习(并非完整内容)
+Step 1. 获取镜像国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.
+不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.
+我使用的是DaoCloud提供的(免费使用">
+<meta property="og:updated_time" content="2017-02-17T12:46:43.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="整理《Docker容器与容器云》一书2.3章节的内容">
+<meta name="twitter:description" content="章节标题: 搭建你的第一个Docker应用栈
+环境: Mac OS, Docker 1.13.1 for Mac
+仅用于自我学习(并非完整内容)
+Step 1. 获取镜像国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.
+不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.
+我使用的是DaoCloud提供的(免费使用">
+  
+    <link rel="alternate" href="/atom.xml" title="Unown Hearn&#39;s BLOG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Unown Hearn&#39;s BLOG</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">~UN的小窝~</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.unown.moe"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-整理《Docker容器与容器云》一书2.3章节的内容" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/" class="article-date">
+  <time datetime="2017-02-17T11:05:23.000Z" itemprop="datePublished">2017-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      整理《Docker容器与容器云》一书2.3章节的内容
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+  	    
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>章节标题: 搭建你的第一个Docker应用栈</p>
+<p>环境: Mac OS, Docker 1.13.1 for Mac</p>
+<p><strong>仅用于自我学习(并非完整内容)</strong></p>
+<h2 id="Step-1-获取镜像"><a href="#Step-1-获取镜像" class="headerlink" title="Step 1. 获取镜像"></a>Step 1. 获取镜像</h2><p>国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.</p>
+<p>不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.</p>
+<p>我使用的是DaoCloud提供的(免费使用, 需要注册一个账号, 之后可以参考<a href="https://www.daocloud.io/mirror" target="_blank" rel="external">Docker 加速器</a>进行配置)</p>
+<p>稍微要提的一点是, 在较新版本的Docker for Mac中, Preferences里Advanced标签页下的Registry mirrors被移到了Daemon标签页. DaoCloud的配置说明里还未更新这一点.</p>
+<p>接下来, 按书中所说:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 实际上, 我全程都不需要sudo, 因此省略掉sudo</div><div class="line"># 如果某条命令因为权限问题, 可以试试加上sudo</div><div class="line">docker pull ubuntu </div><div class="line">docker pull django</div><div class="line">docker pull haproxy</div><div class="line">docker pull redis</div></pre></td></tr></table></figure>
+<p>之后执行<code>docker images</code>, 预期的输出类似:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</div><div class="line">redis               latest              1a8a9ee54eb7        38 hours ago        183 MB</div><div class="line">haproxy             latest              74cb0bec9b30        3 weeks ago         135 MB</div><div class="line">django              latest              eb40dcf64078        8 weeks ago         436 MB</div><div class="line">ubuntu              14.04               aae2b63c4946        2 months ago        188 MB</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="Step-2-启动容器"><a href="#Step-2-启动容器" class="headerlink" title="Step 2. 启动容器"></a>Step 2. 启动容器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"># 书中没有提到, 不过想想就知道, 需要先在主机上创建将要挂载到容器里的文件夹:</div><div class="line">mkdir ~/Projects</div><div class="line">cd ~/Projects</div><div class="line"># 书中说在利用Redis镜像启动容器时会自动挂载, 但是我实际操作时并没有...</div><div class="line"># 所以我们就自己来进行挂载吧</div><div class="line">mkdir Redis Redis/Master Redis/Slave1 Redis/Slave2</div><div class="line">mkdir Django Django/APP1 Django/APP2</div><div class="line">mkdir HAProxy</div><div class="line"></div><div class="line"></div><div class="line"># 打开6个终端, 依次为每个终端执行以下其中一个命令:</div><div class="line"># 终端 1</div><div class="line">docker run -it --name redis-master -v ~/Projects/Redis/Master:/data redis /bin/bash</div><div class="line"># 终端 2</div><div class="line">docker run -it --name redis-slave1 --link redis-master:master -v ~/Projects/Redis/Slave1:/data redis /bin/bash</div><div class="line"># 终端 3</div><div class="line">docker run -it --name redis-slave2 --link redis-master:master -v ~/Projects/Redis/Slave2:/data redis /bin/bash</div><div class="line"># 终端 4</div><div class="line">docker run -it --name APP1 --link redis-master:db -v ~/Projects/Django/App1:/usr/src/app django /bin/bash</div><div class="line"># 终端 5</div><div class="line">docker run -it --name APP2 --link redis-master:db -v ~/Projects/Django/App2:/usr/src/app django /bin/bash</div><div class="line"># 终端 6</div><div class="line">docker run -it --name HAProxy --link APP1:APP1 --link APP2:APP2 -p 6301:6301 -v ~/Projects/HAProxy:/tmp haproxy /bin/bash</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="Step3-配置Redis"><a href="#Step3-配置Redis" class="headerlink" title="Step3. 配置Redis"></a>Step3. 配置Redis</h2><p>书中说”利用启动配置文件模板来创建启动配置文件”, 但是并没有提供”启动配置文件模板”(也许是我没找到?)</p>
+<p>那么, 我们可以自己从<a href="http://download.redis.io/redis-stable/redis.conf" target="_blank" rel="external">redis.conf</a>下载原始的配置文件, 修改并放到<code>~/Projects/Redis/&lt;相应文件夹&gt;</code>下.</p>
+<p>然后对于<code>redis-master</code>, 要修改这一些内容(“A =&gt; B”代表把A修改为B):</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">demonize no =&gt; demonize yes</div><div class="line"></div><div class="line"># 其实不修改也可以, 直接注释也可以</div><div class="line">pidfile /var/run/redis_6379.pid =&gt; pidfile /var/run/redis.pid</div><div class="line"></div><div class="line"># 如果不修改, slave将无法同步master, 会提示&quot;Error condition on socket for SYNC: Connection refused&quot;</div><div class="line">bind 127.0.0.1 =&gt; bind 0.0.0.0</div></pre></td></tr></table></figure>
+<p>对于<code>redis-slave1</code> <code>redis-slave2</code>, 需要修改:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">demonize no =&gt; demonize yes</div><div class="line"></div><div class="line"># 其实不修改, 或者直接注释掉也可以</div><div class="line">pidfile /var/run/redis_6379.pid =&gt; pidfile /var/run/redis.pid</div><div class="line"></div><div class="line">slaveof master 6379</div></pre></td></tr></table></figure>
+<p>启动redis(终端1, 2, 3):</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /data</div><div class="line"># 不知道为什么书中还要把redis.conf复制到/usr/local/bin下</div><div class="line">redis-server redis.conf</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="Step-4-配置Django和HAProxy"><a href="#Step-4-配置Django和HAProxy" class="headerlink" title="Step 4. 配置Django和HAProxy"></a>Step 4. 配置Django和HAProxy</h2><p>这部分书中讲的没什么大问题, 就提以下几点:</p>
+<ol>
+<li>修改完Django的几个文件后, 不用执行书中所述的<code>python manage.py syncdb</code>, 这个命令已经不需要且不存在了.</li>
+<li>haproxy.cfg也不需要复制到<code>/usr/local/sbin</code>下.</li>
+<li>HAProxy容器的IP地址应该用<code>docker inspect HAProxy</code>  (我使用版本的docker可以用<code>docker inspect HAProxy --format &quot;\{\{ .NetworkSettings.IPAddress \}\}&quot;</code>来直接查看). 但是我发现我无法访问<code>http://&lt;HAProxy容器的IP&gt;:6301</code>…</li>
+<li>可以用<code>http://localhost:6301/</code>代替上一条所说的IP在本机访问相关页面, 因为之前创建HAProxy容器时映射了6301端口</li>
+</ol>
+<p>顺便为手懒的人提供书中要打的部分代码:</p>
+<h3 id="Projects-Django-App1-dockerweb-redisweb-helloworld-views-py"><a href="#Projects-Django-App1-dockerweb-redisweb-helloworld-views-py" class="headerlink" title="~/Projects/Django/App1/dockerweb/redisweb/helloworld/views.py"></a>~/Projects/Django/App1/dockerweb/redisweb/helloworld/views.py</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> django.shortcuts <span class="keyword">import</span> render</div><div class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</div><div class="line"></div><div class="line"><span class="keyword">import</span> redis</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">(request)</span>:</span></div><div class="line">    str = redis.__file__</div><div class="line">    str += <span class="string">"&lt;br&gt;"</span></div><div class="line">    r = redis.Redis(host=<span class="string">'db'</span>, port=<span class="number">6379</span>, db=<span class="number">0</span>)</div><div class="line">    info = r.info()</div><div class="line">    str += <span class="string">'Set Hi &lt;br&gt;'</span></div><div class="line">    r.set(<span class="string">'Hi'</span>, <span class="string">'HelloWorld-APP1'</span>)</div><div class="line">    str += <span class="string">'Get Hi: %s &lt;br&gt;'</span> % r.get(<span class="string">'Hi'</span>)</div><div class="line">    str += <span class="string">'Redis Info: &lt;br&gt;'</span></div><div class="line">    str += (<span class="string">"Ke: Info Value"</span>)</div><div class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> info:</div><div class="line">        str += <span class="string">"%s: %s &lt;br&gt;"</span> % (key, info[key])</div><div class="line">    <span class="keyword">return</span> HttpResponse(str)</div></pre></td></tr></table></figure>
+<h3 id="Projects-HAProxy-haproxy-cfg"><a href="#Projects-HAProxy-haproxy-cfg" class="headerlink" title="~/Projects/HAProxy/haproxy.cfg"></a>~/Projects/HAProxy/haproxy.cfg</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">global</div><div class="line">    log 127.0.0.1 local0</div><div class="line">    maxconn 4096</div><div class="line">    chroot /usr/local/sbin</div><div class="line">    daemon</div><div class="line">    nbproc 4</div><div class="line">    pidfile /usr/local/sbin/haproxy.pid</div><div class="line"></div><div class="line">defaults</div><div class="line">    log 127.0.0.1 local3</div><div class="line">    mode http</div><div class="line">    option dontlognull</div><div class="line">    option redispatch</div><div class="line">    retries 2</div><div class="line">    maxconn 2000</div><div class="line">    balance roundrobin</div><div class="line">    timeout connect 5000ms</div><div class="line">    timeout client 50000ms</div><div class="line">    timeout server 50000ms</div><div class="line"></div><div class="line">listen redis_proxy </div><div class="line">    bind 0.0.0.0:6301</div><div class="line">    stats enable</div><div class="line">    stats uri /haproxy-stats</div><div class="line">        server APP1 APP1:8001 check inter 2000 rise 2 fall 5</div></pre></td></tr></table></figure>
+<hr>
+<p>嗯, 大概就是这些了…</p>
+
+  	    
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/" data-id="ciz9t7y3x0008br28z95wh4l9" class="article-share-link">Share</a>
+      
+        <a href="http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/12/28/rmxp上的自动换行/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">rmxp上最简单的自动换行</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/测试/">测试</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HDU/">HDU</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/contest/">contest</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sh脚本/">sh脚本</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/solution/">solution</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法-数论/">算法-数论</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/HDU/" style="font-size: 16.67px;">HDU</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/hexo/" style="font-size: 13.33px;">hexo</a> <a href="/tags/sh脚本/" style="font-size: 10px;">sh脚本</a> <a href="/tags/solution/" style="font-size: 20px;">solution</a> <a href="/tags/日记/" style="font-size: 13.33px;">日记</a> <a href="/tags/测试/" style="font-size: 10px;">测试</a> <a href="/tags/算法-数论/" style="font-size: 10px;">算法-数论</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">13</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/">整理《Docker容器与容器云》一书2.3章节的内容</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/28/rmxp上的自动换行/">rmxp上最简单的自动换行</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/28/QTU第五届交流赛补完/">QTU第五届交流赛补完 (施工中)</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/26/日记-2016-11-26/">日记 2016-11-26</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/25/Solution-HDU-2032/">Solution-HDU-2032 杨辉三角</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 unown (hearnxu@gmail.com)<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'unown-hearn-blog';
+  
+  var disqus_url = 'http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

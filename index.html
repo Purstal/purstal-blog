@@ -65,6 +65,63 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-整理《Docker容器与容器云》一书2.3章节的内容" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/" class="article-date">
+  <time datetime="2017-02-17T11:05:23.000Z" itemprop="datePublished">2017-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/">整理《Docker容器与容器云》一书2.3章节的内容</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+  	    
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>章节标题: 搭建你的第一个Docker应用栈</p>
+<p>环境: Mac OS, Docker 1.13.1 for Mac</p>
+<p><strong>仅用于自我学习(并非完整内容)</strong></p>
+<h2 id="Step-1-获取镜像"><a href="#Step-1-获取镜像" class="headerlink" title="Step 1. 获取镜像"></a>Step 1. 获取镜像</h2><p>国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.</p>
+<p>不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.</p>
+<p>我使用的是DaoCloud提供的(免费使用, 需要注册一个账号, 之后可以参考<a href="https://www.daocloud.io/mirror" target="_blank" rel="external">Docker 加速器</a>进行配置)</p>
+<p>稍微要提的一点是, 在较新版本的Docker for Mac中, Preferences里Advanced标签页下的Registry mirrors被移到了Daemon标签页. DaoCloud的配置说明里还未更新这一点.</p>
+<p>接下来, 按书中所说:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 实际上, 我全程都不需要sudo, 因此省略掉sudo</div><div class="line"># 如果某条命令因为权限问题, 可以试试加上sudo</div><div class="line">docker pull ubuntu </div><div class="line">docker pull django</div><div class="line">docker pull haproxy</div><div class="line">docker pull redis</div></pre></td></tr></table></figure>
+<p>之后执行<code>docker images</code>, 预期的输出类似:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</div><div class="line">redis               latest              1a8a9ee54eb7        38 hours ago        183 MB</div><div class="line">haproxy             latest              74cb0bec9b30        3 weeks ago         135 MB</div><div class="line">django              latest              eb40dcf64078        8 weeks ago         436 MB</div><div class="line">ubuntu              14.04               aae2b63c4946        2 months ago        188 MB</div></pre></td></tr></table></figure>
+<hr>
+  	      
+            <p class="article-more-link">
+              <a href="/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/#more">Read More</a>
+            </p>
+          
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/" data-id="ciz9t7y3x0008br28z95wh4l9" class="article-share-link">Share</a>
+      
+        <a href="http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-rmxp上的自动换行" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/12/28/rmxp上的自动换行/" class="article-date">
@@ -105,7 +162,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/12/28/rmxp上的自动换行/" data-id="ciz9t386k00044q28eud7cl4y" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/12/28/rmxp上的自动换行/" data-id="ciz9t7y40000abr28qh7rb6ww" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/12/28/rmxp上的自动换行/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -157,7 +214,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/28/QTU第五届交流赛补完/" data-id="ciz9t386i00034q28nmhy92mw" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/28/QTU第五届交流赛补完/" data-id="ciz9t7y3j0000br28as9co50j" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/28/QTU第五届交流赛补完/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -202,7 +259,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/26/日记-2016-11-26/" data-id="ciz9t386x000g4q28kboowt6d" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/26/日记-2016-11-26/" data-id="ciz9t7y45000ibr28pe4kk1h0" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/26/日记-2016-11-26/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -254,7 +311,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/" data-id="ciz9t386n00054q2844wsoodf" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/" data-id="ciz9t7y3w0007br28orcovtj6" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -304,7 +361,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/25/Solution-HDU-2031/" data-id="ciz9t386o00074q28yujv7nbc" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/25/Solution-HDU-2031/" data-id="ciz9t7y3n0001br28afajv18h" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/25/Solution-HDU-2031/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -356,7 +413,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="ciz9t386a00004q28pvj04umi" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/" data-id="ciz9t7y3t0004br28vfg0j86j" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -406,7 +463,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="ciz9t3872000m4q28cn6y089w" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/" data-id="ciz9t7y49000nbr280bqtwa95" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -458,7 +515,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="ciz9t386e00014q28a8p5zqn9" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/" data-id="ciz9t7y3q0003br28h6o0s7ju" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -503,66 +560,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="ciz9t386y000i4q28mkqkok8m" class="article-share-link">Share</a>
+      <a data-url="http://blog.unown.moe/2016/11/24/日记-2016-11-24/" data-id="ciz9t7y42000fbr28j9of2dbn" class="article-share-link">Share</a>
       
         <a href="http://blog.unown.moe/2016/11/24/日记-2016-11-24/#disqus_thread" class="article-comment-link">Comments</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日记/">日记</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-日后可以考虑的一些改进" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/11/24/日后可以考虑的一些改进/" class="article-date">
-  <time datetime="2016-11-24T05:43:41.000Z" itemprop="datePublished">2016-11-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/24/日后可以考虑的一些改进/">日后可以考虑的一些改进</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-  	    
-  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>每次生成时建立索引并push到服务器上, 由服务器处理站内搜索.</li>
-</ul>
-<ul>
-<li>disqus在国内不翻墙的情况下无法正常使用, 需要考虑更换评论系统. 不如以后造个轮子?</li>
-<li>hexo默认没有设定使博文不在首页显示, 以后可以考虑做个插件实现此功能.</li>
-<li>可以考虑实现个系列博文的插件, 使同一主题的多个博文间可以快速切换.</li>
-<li>虽然已经有了针对多个博文的加密插件, 但是加密分类的插件目前并没有, 可以考虑实现.</li>
-<li>对文章多了以后hexo能否很快地生成博客表示怀疑. 如果可以的话, 可以改造之. 用前端的模板引擎, 将数据保存为json文件来进行优化. 虽然对搜索引擎的爬虫会有阻碍作用, 并且会额外增加get请求的数量, 但是可以避免重复的生成网页.</li>
-<li>置顶博文…</li>
-</ul>
-
-  	    
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/" data-id="ciz9t386v000b4q28kc7h1v8m" class="article-share-link">Share</a>
-      
-        <a href="http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/#disqus_thread" class="article-comment-link">Comments</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
 
     </footer>
   </div>
@@ -613,7 +616,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">13</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">13</span></li></ul>
     </div>
   </div>
 
@@ -624,6 +627,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/">整理《Docker容器与容器云》一书2.3章节的内容</a>
+          </li>
         
           <li>
             <a href="/2016/12/28/rmxp上的自动换行/">rmxp上最简单的自动换行</a>
@@ -639,10 +646,6 @@
         
           <li>
             <a href="/2016/11/25/Solution-HDU-2032/">Solution-HDU-2032 杨辉三角</a>
-          </li>
-        
-          <li>
-            <a href="/2016/11/25/Solution-HDU-2031/">Solution-HDU-2031 进制转换</a>
           </li>
         
       </ul>
