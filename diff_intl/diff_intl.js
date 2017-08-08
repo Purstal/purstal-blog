@@ -17684,7 +17684,7 @@ $packages["main"] = (function() {
 				}
 				if (!(sectionResult === "")) {
 					if (result_changedSections === "") {
-						result_changedSections = "//FORMAT: (+/-/\xCE\x94|LINE NUMBER IN FILE|LINE NUMBER IN SECTION):TEXT";
+						result_changedSections = "//FORMAT: (+/-/\xCE\x94|LINE NUMBER IN FILE|LINE NUMBER IN SECTION):TEXT\n\n\n";
 					}
 					result_changedSections = result_changedSections + ("[" + strMap + strconv.Itoa(newSection.ID) + "]\n" + sectionResult + "\n\n");
 				}
