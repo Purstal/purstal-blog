@@ -1,0 +1,74 @@
+<html>
+
+  <head>
+    <script src="./diff_intl.js"> </script>
+
+    <script>
+
+      var olderStr = false, newerStr = false;
+      var olderReady, newerReady;
+
+      function diff() {
+        var result = unown.Diff(olderStr, newerStr);
+        //console.log(result);
+        document.getElementById("output").value = result;
+      }
+
+      function loadFile(files, isOlder) {
+        var button = document.getElementById("checkDiff");
+        button.disabled = true;
+        if (isOlder) {
+          olderReady = false;
+        } else {
+          newerReady = false;
+        }
+        if (files.length === 0) {
+          console.log("未选择文件.")
+          return;
+        }
+        var file = files[0];
+        if (file.type.match(/text.*/)) {
+          var reader = new FileReader();
+          reader.onload = function(e) {
+            if (isOlder) {
+              olderStr = reader.result;
+              olderReady = true;
+            } else {
+              newerStr = reader.result;
+              newerReady = true;
+            }
+            if (olderReady && newerReady) {
+              button.disabled = false;
+            }
+          }
+          reader.readAsText(file)
+
+        } else {
+          alert("file type mismatched!");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    older file:
+    <input type="file" id="olderFile" onchange="loadFile(this.files, true)"/>
+    newer file:
+    <input type="file" id="newerFile" onchange="loadFile(this.files, false)"/>
+    <input type="button" id="checkDiff" value="check diff" disabled onclick="diff()"/>
+    <br/>
+    output:
+    <br/>
+    <textarea id="output" readonly></textarea>
+  </body>
+
+  <style>
+    #output {
+      width: 100%;
+      height: 100%
+    }
+
+
+  </style>
+
+</html>

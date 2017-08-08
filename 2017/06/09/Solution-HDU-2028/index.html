@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Unown Hearn&#39;s BLOG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="—
+title: Solution-HDU-2028date: “2016-11-24T15:24:19+00:00”T+00:00tags: [solution, HDU]
+catalog: solutions原题: http://acm.hdu.edu.cn/showproblem.php?pid=2028
+Problem Description
+求n个数的最小公倍数。
+
+
+思路123def">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unown Hearn's BLOG">
+<meta property="og:url" content="http://blog.unown.moe/2017/06/09/Solution-HDU-2028/index.html">
+<meta property="og:site_name" content="Unown Hearn's BLOG">
+<meta property="og:description" content="—
+title: Solution-HDU-2028date: “2016-11-24T15:24:19+00:00”T+00:00tags: [solution, HDU]
+catalog: solutions原题: http://acm.hdu.edu.cn/showproblem.php?pid=2028
+Problem Description
+求n个数的最小公倍数。
+
+
+思路123def">
+<meta property="og:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-24 at 8.21.20 PM.png">
+<meta property="og:updated_time" content="2017-06-08T18:20:25.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Unown Hearn's BLOG">
+<meta name="twitter:description" content="—
+title: Solution-HDU-2028date: “2016-11-24T15:24:19+00:00”T+00:00tags: [solution, HDU]
+catalog: solutions原题: http://acm.hdu.edu.cn/showproblem.php?pid=2028
+Problem Description
+求n个数的最小公倍数。
+
+
+思路123def">
+<meta name="twitter:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-24 at 8.21.20 PM.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Unown Hearn&#39;s BLOG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Unown Hearn&#39;s BLOG</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">~UN的小窝~</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.unown.moe"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Solution-HDU-2028" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/06/09/Solution-HDU-2028/" class="article-date">
+  <time datetime="2017-06-08T18:20:25.000Z" itemprop="datePublished">2017-06-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+  	    
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: Solution-HDU-2028<br>date: “2016-11-24T15:24:19+00:00”T+00:00<br>tags: [solution, HDU]</p>
+<h2 id="catalog-solutions"><a href="#catalog-solutions" class="headerlink" title="catalog: solutions"></a>catalog: solutions</h2><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2028" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2028</a></p>
+<h4 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h4><blockquote>
+<p>求n个数的最小公倍数。</p>
+</blockquote>
+<hr>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">LCM</span><span class="params">(a, b)</span>:</span></div><div class="line">	c = GCD(a, b)</div><div class="line">	<span class="keyword">return</span> a * b / c</div></pre></td></tr></table></figure>
+<hr>
+<h4 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h4><p>😂第一次提交的版本WA了, 读错题了. 以为头一个数也算在内, 要自己判断每一组数据的边界.</p>
+<p>😂第二次提交的瞬间发现自己没有修改第44行, 又白白CE.</p>
+<p>提交结果: <img src="/images/Screen Shot 2016-11-24 at 8.21.20 PM.png" alt=""></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdint.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdbool.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="comment">/*</span></div><div class="line">Lowest Common Multiple Plus</div><div class="line"></div><div class="line">Problem Description</div><div class="line">求n个数的最小公倍数。</div><div class="line"></div><div class="line">Input</div><div class="line">输入包含多个测试实例，每个测试实例的开始是一个正整数n，然后是n个正整数。</div><div class="line"></div><div class="line">Output</div><div class="line">为每组测试数据输出它们的最小公倍数，每个测试实例的输出占一行。你可以假设最后的输出是一个32位的整数。</div><div class="line"></div><div class="line">Sample Input</div><div class="line">2 4 6</div><div class="line">3 2 5 7</div><div class="line"></div><div class="line">Sample Output</div><div class="line">12</div><div class="line">70</div><div class="line">*/</div><div class="line"></div><div class="line"><span class="keyword">uint32_t</span> gcd(<span class="keyword">uint32_t</span> a, <span class="keyword">uint32_t</span> b) &#123;</div><div class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span> == <span class="number">0</span> &amp;&amp; b%<span class="number">2</span> == <span class="number">0</span>) &#123;a&gt;&gt;=<span class="number">1</span>;b&gt;&gt;=<span class="number">1</span>;c++;&#125;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a&gt;&gt;=<span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span> (b%<span class="number">2</span>==<span class="number">0</span>) b&gt;&gt;=<span class="number">1</span>;</div><div class="line"></div><div class="line">    <span class="keyword">while</span> (<span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">if</span> (a &lt; b) &#123;</div><div class="line">            <span class="keyword">uint32_t</span> temp = a;</div><div class="line">            a = b;</div><div class="line">            b = temp;</div><div class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a==b) <span class="keyword">break</span>;</div><div class="line">        a = (a+b) &gt;&gt; <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a&gt;&gt;=<span class="number">1</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> b &lt;&lt; c;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//uint32_t lcm(a, b) &#123; // 意外地发现clang可以省略参数的类型...</span></div><div class="line"><span class="keyword">uint32_t</span> lcm(<span class="keyword">uint32_t</span> a, <span class="keyword">uint32_t</span> b) &#123;</div><div class="line"><span class="keyword">return</span> a / gcd(a, b) * b;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="meta">#<span class="meta-keyword">ifdef</span> DEBUG</span></div><div class="line">    freopen(<span class="string">"2028.testcase.example.in"</span>, <span class="string">"r"</span>, <span class="built_in">stdin</span>);</div><div class="line">    <span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">// DEBUG</span></span></div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) == <span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">uint32_t</span> result = <span class="number">0</span>;</div><div class="line">        <span class="keyword">while</span> (n--) &#123;</div><div class="line">            <span class="keyword">uint32_t</span> x;</div><div class="line">            <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;x);</div><div class="line">            <span class="keyword">if</span> (result!=<span class="number">0</span>) result = lcm(result, x);</div><div class="line">            <span class="keyword">else</span> result = x;</div><div class="line"></div><div class="line">            <span class="meta">#<span class="meta-keyword">ifdef</span> DEBUG</span></div><div class="line">            <span class="built_in">printf</span>(<span class="string">"(%d, %d)"</span>, x, result);            </div><div class="line">            <span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">// DEBUG</span></span></div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, result);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+  	    
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.unown.moe/2017/06/09/Solution-HDU-2028/" data-id="cj640ry8u0001lb4qezbzk2kb" class="article-share-link">Partager</a>
+      
+        <a href="http://blog.unown.moe/2017/06/09/Solution-HDU-2028/#disqus_thread" class="article-comment-link">Commentaires</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/06/09/一个TCG的原型/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/06/09/日后可以考虑的一些改进/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">18</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/06/09/一个中世纪奇幻世界的世界观/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/QTU第五届交流赛补完/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/Solution-HDU-2029/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/Solution-HDU-2031/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/hello-world/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 unown (hearnxu@gmail.com)<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'unown-hearn-blog';
+  
+  var disqus_url = 'http://blog.unown.moe/2017/06/09/Solution-HDU-2028/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

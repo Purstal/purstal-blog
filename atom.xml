@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.unown.moe/"/>
-  <updated>2017-04-10T07:51:04.000Z</updated>
+  <updated>2017-06-08T18:20:25.000Z</updated>
   <id>http://blog.unown.moe/</id>
   
   <author>
@@ -16,41 +16,67 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>想做这样一款游戏</title>
-    <link href="http://blog.unown.moe/2017/04/10/%E6%83%B3%E5%81%9A%E8%BF%99%E6%A0%B7%E4%B8%80%E6%AC%BE%E6%B8%B8%E6%88%8F/"/>
-    <id>http://blog.unown.moe/2017/04/10/想做这样一款游戏/</id>
-    <published>2017-04-10T04:47:54.000Z</published>
-    <updated>2017-04-10T07:51:04.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E4%B8%80%E4%B8%AA%E4%B8%AD%E4%B8%96%E7%BA%AA%E5%A5%87%E5%B9%BB%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%96%E7%95%8C%E8%A7%82/"/>
+    <id>http://blog.unown.moe/2017/06/09/一个中世纪奇幻世界的世界观/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>读狼与香辛料, 让我对欧洲中世纪商人的行商生活产生了兴趣. (当然, 我知道行商生活是很苦的)</p>
-<p>我在想, 如果基于VR制作一款模拟那一时期商人行商的游戏, 是不是会别有一番风趣. 嗯, “欧洲中世纪马车模拟”的感觉.</p>
-<hr>
-<p>由于某个缘故, 你成为了一名旅行商人, 在一片广袤无边的土地上四处行商. </p>
-<p>地图不一定是真实的欧洲地图, 也可以像骑马与砍杀那样虚构一片地图, 或者把春秋时期的中国地图套进去(虽然明显时代背景不对), 甚至可以随机生成地图(实现这个可能是有生之年了). </p>
-<p>玩家以第一人称视角进行游戏(VR的意义所在), 驾着马车在广阔的游走, 欣赏延路上的风景. 而且玩家不一定要走固定的商路, 地图上能看到的地方基本上都能走. 这要求地图的精度要向上古卷轴、龙腾世纪、巫师等这样同类的开放世界游戏靠拢. 还不确定是否要制作城镇内部.</p>
-<p>游戏的宗旨之一便是贴近现实. 所以自然方面, 天气、气候等系统都不能少. 非自然方面, 不仅要有完整的经济系统, 甚至连国家间的政治也会有相应的模拟. 即使暂时看不到影响, 个体的商人、整体的商行都多多少少会在后台做出行动. 因为实际上从一个地点到下一个地点的路途会很长, 所以利用玩家移动的时间进行运算也无不妥.</p>
-<p>游戏会忠于还原中世纪的商贸系统. 从物价变化、币种、合约、期货, 到商行、洋行、工会、骑士团、贵族、教会的影响, 都会忠实地体现.</p>
-<p>“事件”系统则是游戏的核心之一. 除了”偶然事件”外, 还有”关联事件”, 如果有在进行剧本, 还会有”剧情事件”. 剧本有可能是游戏开始前选择的宏观大剧本, 也可能是游戏中途卷入的剧本. 剧本事件即使不会影响到角色, 但只要点燃导火索, 就会陆续发生. 多个剧本事件可以同时进行, 走向并非玩家可控.</p>
-<p>回到”关联事件”, 关联事件是以”如果XXX, 就会YYY”为形式的事件. 比如两个国家爆发了战争, 就会出现部分地区军备涨价的事件. 环境会酿成事件, 事件又会改变环境.</p>
-<p>(蝴蝶效应产生的结果总是会很有趣)</p>
-<p>玩家并不会在事件触发时/进行中收到弹出的提示窗口, 而是会直接或间接地感受到事件的发生.  最直接的就是亲身经历, 比如佣兵团劫道, 另外就是从其他人身上获得情报.</p>
-<p>玩家可以获得情报, 或是看到城镇的告示, 或是聆听酒店里两人的谈话, 或是与路上遇到的其他商人互相交换… 你可能会获得假的情报, 同样你也可以传播假的情报.</p>
-<p>行商当中人际关系也十分重要, 与商行的关系越好, 名声越好, 就越容易交易、贷款; 与商人的关系越好, 相互间越信任, 就越容易获得情报. 当然, 如果没有提前安排, 偶然遇到以前认识的旅行商人几乎是不可能的事情. 关系还包括与贵族的关系, 与教会的关系, 与劳动者的关系, 与民众的关系, 与供货方的关系… 关系是一点一点积累而来的, 但是如果处理不当, 就可能会整片地崩塌. 如果没能完成某处的某家商行的契约, 就可能会被整片地区的其他商行唾弃. 而且随着时间的发酵, 可能会愈发地严重, 最后不仅到处被讨债, 而且谁都不愿意与你做生意了.</p>
-<p>游戏可以分两个基本模式和多个难度. 除了上述的那个模式之外, 还有上帝视角模式, 省略行商的路途. 难度上来讲, 最难的难度到处需要拿笔记录各种信息, 最简单的难度即使稍微有些无脑也不容易破产, 经济模型也会有所简化.</p>
-<p>游戏后期, 你可以雇佣自己的配行商人, 甚至有机会成立自己的商行, 虽然在高难度下几乎不可能.</p>
-<hr>
-<h2 id="双人行商以及网络版"><a href="#双人行商以及网络版" class="headerlink" title="双人行商以及网络版"></a>双人行商以及网络版</h2><p>即使在单人游戏中, 玩家也可以邀请NPC一同前行, 不过大多数情况下只是临时合作罢了. (但也不是不可能有罗伦斯、赫萝那样的展开, 一起行商旅行)</p>
-<p>双人行商, 是指玩家可以邀请另一名玩家陪同自己行商, 一起沉浸在周围的景色之中. 两人间的羁绊也一定能愈来愈深吧.</p>
-<p>网络版嘛, 不是DLC就是独立作品了. 顾名思义, 大家在一个大世界中共同竞争, 呃, “EVE中世纪版”?</p>
-<h2 id="狼与香辛料"><a href="#狼与香辛料" class="headerlink" title="狼与香辛料?"></a>狼与香辛料?</h2><p>如果有机会, 好想在游戏中还原狼与香辛料中的世界.</p>
-<p>然后, 你甚至能以旁观者的视角为罗伦斯和赫萝祝福. (罗伦斯是赫萝的, 赫萝也是罗伦斯的, 谁都不能抢!)</p>
-<hr>
-<p>待续… </p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 一个中世纪奇幻世界的世界观<br>date: “2017-05-01T20:14:04+00:00”T+00:00</p>
+<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><h3 id="神话时期"><a href="#神话时期" class="headerlink" title="神话时期"></a>神话时期</h3><p>人类被众精灵奴役着, 精灵们各自为战.</p>
+<p>大精灵之一的A为了能称霸世界, 决定利用人类因被奴役而产生的怨恨, 与人类合作. 它首先解放了自己手下的人类, 然后将自己的一件三件神器分给了三位人类, 此三位都是伺服另三个大精灵(B, C, D)的宗族中有能力而想要反抗的人. </p>
+<p>凭借着神器的力量, A和人类最终取得了胜利, 封印了那三个大精灵 (其他的精灵本身对人类的威胁就相对较小).</p>
+<p>由于之前三个大精灵的合力反击, 导致战事比A预想得要激烈, 没有机会依次回收三大神器. 讨伐三大精灵之后, A的力量也有所削弱. 这时, 此三名人类秘密地背叛了A(“当神器归还后, A必定会重新奴役我们”), 将A封印在了E处. </p>
+<p>为了安抚其他人类(尤其是A宗族的人)以及建立自己的统治, 三位人类建立了”精灵教”与教会, 称A选择与大地融为一体, 以保护人类; 并称此三人是A的使者, 传递A的福音, 将自己塑造为”三位大贤者”, 而”大贤者”的职位将由自己的家族继承下去(继承人将会被告知真相, 持有的神器是继承人的象征). A宗族的人听从”神旨”迁移到了北方远处, 有关的书籍被焚烧殆尽.</p>
+<p>顺便一提, 那个时期的文明水平大概有古希腊、古罗马的程度. “宗族”实际上并非血缘上的关系, 实际的规模大概也能有几个城邦了. </p>
+<h3 id="几百年后"><a href="#几百年后" class="headerlink" title="几百年后"></a>几百年后</h3><p>北方商人南下圣地时, 在一座废墟中发现一本古籍残本. 商人虽然读不懂, 但是出于责任感, 将书冒着风险带回了北方. </p>
+<p>在商人将书交给A宗族国家F的王室后, 某古老家族的贵族解读了其中的内容. 书上描述了与A沟通的魔法.</p>
+<p>此贵族以自己的大部分寿命为代价, 强行施展了魔法, 三位贤者封印A的画面映入眼前. 此贵族从此秘密地组建了异端”赎罪教派”. 此教以解开A的封印为目的, 行为十分极端, 数十万人死于其教徒的屠杀当中. 他们以自己的生命为代价强行施展魔法, 但这些魔法的效率也不佳. 经过贤者后人带领下的几次(血腥)讨伐, 教会最终消灭了此异端, A宗族的人口也大量减少.</p>
+<h3 id="又几百年后"><a href="#又几百年后" class="headerlink" title="又几百年后"></a>又几百年后</h3><p>A半苏醒了一段时间, 成功地像一部分人洗脑(并不一定是A宗族的人, 不过相性一定偏向于A). 外称”魔女教派”的异端成立了. 这个教派十分表面温和, 使用着与几百年前”赎罪教派”相同形式的魔法. 教会在发现魔女教派之后便持续打压此异端, 但是魔女教派无孔不入, 持续几百年依旧活跃在暗处. </p>
+<h2 id="设定"><a href="#设定" class="headerlink" title="设定"></a>设定</h2><h3 id="宗族"><a href="#宗族" class="headerlink" title="宗族"></a>宗族</h3><ul>
+<li>宗族: 传说在神话时代, 不同的宗族以奴隶的身份侍奉着不同的大精灵. 宗族之人与那时侍奉的大精灵有更好的”相性”. 有测试宗族的方法.</li>
+<li>无族者: 实际上, 上千年过去之后, 各宗族通婚稀释了后代的血液. 现今除了一部分贵族外,很少人还能区分出原来所属的宗族. </li>
+</ul>
+<h3 id="魔法"><a href="#魔法" class="headerlink" title="魔法"></a>魔法</h3><ul>
+<li>生命力与魔力:<ul>
+<li>生命力: 把生命力看做一个数值条的话, 人在出生到成年到衰老的过程中, 数值的上限先变大再变小. 受伤会减小数值, 也可能会缩短数值上限. 数值到零的时候, 人就归西了. 生命力无法由无机物承载.</li>
+<li>相性: 每个大精灵都有偏向的魔法属性, 宗族之人的相性实际上指的是其对各魔法属性的适应能力.</li>
+<li>魔力: 有多种魔法属性的魔力.</li>
+<li>魔力储蓄: 世界上万物都能储蓄魔力, 神器便是无机物中最好的例子. 人类的魔力储蓄能力几乎为零. 另外, 人类也很难从自然中自动汲取并恢复自己的魔力. 根据魔法属性与相性的不同, 能储存的魔力多少也不同, 而且可能会有类似”食物中毒”一样的不良反应.</li>
+</ul>
+</li>
+<li>魔法:<ul>
+<li>发动: 正常情况下是消耗魔力和部分生命力来发动魔法. 强行发动魔法需要消耗大量生命力与生命力的上限.</li>
+<li>法杖: 正常情况下, 人类无法直接利用魔法, 存储在容器中的魔力需要用类似法杖一类的介质释放. 如果自身是容器的话, 以生命力和生命力上限为代价也可以发动魔法.</li>
+<li>魔法准备: 自身作为容器的话, 几乎不需要准备. 但是如果魔力从其他容器来, 基本上先要释放”口令魔法”. 小型魔法的”口令魔法”的魔力消耗基本可以忽略不计.¥</li>
+</ul>
+</li>
+</ul>
+<h3 id="魔女教派"><a href="#魔女教派" class="headerlink" title="魔女教派:"></a>魔女教派:</h3><ul>
+<li>契约: 以总量占2/3的生命力为代价签署契约, 原本负担总1/2生命力的生命力容器将会转换为魔力储蓄的容器.</li>
+<li>仆从: 签订契约之人, 便是A的仆从. 仆从必须无条件接受教派的规定和A的命令. 虽然一时不履行不会出问题, 但之后教派是一定会发现的.</li>
+<li>定期反馈: 仆从必须定期去找教派的神职人员. 仆从以神职人员为中介交出其部分生命力给A, 并以此维持魔力储蓄. 交出的生命力量与那段时间仆从汲取的生命力量成比例. 此外, 神职人员在此期间还会询问仆从是否有履行契约, 神职人员借由A的力量有能力鉴别仆从是否说谎.</li>
+<li>体型: 由于仆从会失去本身1/2的生命力上限, 基本上只有青年及之前的时期才能签署契约. 也因此, 仆从的身体普遍瘦弱, 甚至曾经许多男仆从被误认成女性, “魔女教派”之名也因此而来. 顺便, 仆从是无法拥有后代的.</li>
+<li>不死之躯: 这并不是不可以做到, 用魔法可以维持生命力的上限在某一水平即可. 人类拥有的生命力上限和魔力上限的极限于其壮年时期. 因此, 生命力上限只有可能维持到某一肉体能承受的最高值, 而不可能无限提高. x <em> MaxHP + y </em> MaxMP ≤ z.</li>
+<li>A的目的: 大精灵其实并不是很在意时间这个概念. A以求稳作为出发点, 创立了”魔女教派”. 这样, 总有一天, 魔女教派的仆从会为A奉献出足以自我复活的生命力.</li>
+<li>融入社会: A不要求仆从与教会对立. 正相反, A甚至认为仆从有必要表面上信奉精灵教. 也因此, 甚至教会高层会混有A的仆从. 不过, 三大贤者家族的成员不可能考虑与A为伍.</li>
+<li>汲取生命力: 人死了便会失去生命力, 因此杀人放火并不是一种好选择. 除非是领主并有神职人员陪同, 不然藏人会比较困难, 并且实际效率也并不一定高, 因此囚禁对于一般仆从也不是一个好选择. 一般仆从在别人没发现的时候对某处的人群释放一个汲取生命力的魔法就好了…</li>
+</ul>
+<h3 id="未归类"><a href="#未归类" class="headerlink" title="未归类"></a>未归类</h3><ul>
+<li>异教: 另三个被封印的大精灵同样有其信奉者. 有纯粹信仰的教派也有极端的教派, 人数也不一定. 思维和行动模式要比精灵教和魔女教派要简单.</li>
+</ul>
+<h2 id="部分剧本"><a href="#部分剧本" class="headerlink" title="部分剧本"></a>部分剧本</h2><ul>
+<li>短系列 五世纪: 北方商人南下得到古籍并历经千难万险回到北方将书交给王族的冒险故事.</li>
+<li>长系列 十一世纪: 旅行法师(只有魔女教派仆从才可能被称作旅行法师)在旅行途中遇到被奴隶贩子贩卖的少女. 少女设计让法师买下她的自由, 并主动与法师展开了旅行. 路途中少女揭示了自己的身份 — 没落贵族的唯一继承人. 机遇之下两人决定为少女争夺一块领地的所有权. 最后两人从权力的斗争中全身而退, 在另外某处过上了小日子.</li>
+<li>短篇集 十一世纪: 世界上各处的故事. 比如另一名魔女教派仆从伯爵的阴谋.</li>
+<li>? ?世纪: A复活前夕. 各方势力的明面与暗面的斗争.</li>
+</ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;读狼与香辛料, 让我对欧洲中世纪商人的行商生活产生了兴趣. (当然, 我知道
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
@@ -58,131 +84,15 @@
   </entry>
   
   <entry>
-    <title>一个TCG的原型</title>
-    <link href="http://blog.unown.moe/2017/02/18/%E4%B8%80%E4%B8%AATCG%E7%9A%84%E5%8E%9F%E5%9E%8B/"/>
-    <id>http://blog.unown.moe/2017/02/18/一个TCG的原型/</id>
-    <published>2017-02-18T09:48:44.000Z</published>
-    <updated>2017-02-18T10:43:25.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/QTU%E7%AC%AC%E4%BA%94%E5%B1%8A%E4%BA%A4%E6%B5%81%E8%B5%9B%E8%A1%A5%E5%AE%8C/"/>
+    <id>http://blog.unown.moe/2017/06/09/QTU第五届交流赛补完/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>卡组内卡牌数量: 至少N张, 至多不限. 有同名卡限制.</li>
-<li>卡牌种类: 使者, 其他.</li>
-<li>使者拥有属性和种族, 或者其他什么的. 还有费用, 价值, ATK/DEF, 阶段效果等数值</li>
-<li>回合流程: 回合开始阶段 -&gt; 抽牌阶段 -&gt; 主要阶段 -&gt; 回合结束阶段 -&gt; (弃牌阶段).</li>
-<li>当前回合的玩家进入主要阶段, 即可宣言攻击, 攻击结束后, 横置使者. 攻击无穿刺, 由攻击者选择目标, A.AKT&gt;=D.DEF即战破. 被战破的使者将叠放于攻击者的牌之下.对方场上还有未横置的使者时无法直接攻击对方. 下次回合开始将横置的使者复位.</li>
-<li>随着使者下方倒置的牌增减, 使者的效果和价值也会发生改变.</li>
-<li>主要阶段时, 可以选中几张非横置使者, 若这些牌提供的价值大于等于需要召唤的使者/需要发动的其他牌, 可以将那些选中的牌送入墓地, 召唤该使者/发动该牌.</li>
-<li>其他类牌中也有有临时提供价值效果的牌.</li>
-<li>使用堆叠机制.</li>
-<li>[(触发/启动)发动条件] (生效条件) 效果. 如: [(启动) (支付费用A*x+转化B|去除叠放C)+选择火属性使者] 若该使者叠放数≥2, 消灭该使者. </li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;ol&gt;
-&lt;li&gt;卡组内卡牌数量: 至少N张, 至多不限. 有同名卡限制.&lt;/li
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>整理《Docker容器与容器云》一书2.3章节的内容</title>
-    <link href="http://blog.unown.moe/2017/02/17/%E6%95%B4%E7%90%86%E3%80%8ADocker%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91%E3%80%8B%E4%B8%80%E4%B9%A62.3%E7%AB%A0%E8%8A%82%E7%9A%84%E5%86%85%E5%AE%B9/"/>
-    <id>http://blog.unown.moe/2017/02/17/整理《Docker容器与容器云》一书2.3章节的内容/</id>
-    <published>2017-02-17T11:05:23.000Z</published>
-    <updated>2017-02-17T12:54:07.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>章节标题: 搭建你的第一个Docker应用栈</p>
-<p>环境: Mac OS, Docker 1.13.1 for Mac</p>
-<p><strong>仅用于自我学习(并非完整内容)</strong></p>
-<h2 id="Step-1-获取镜像"><a href="#Step-1-获取镜像" class="headerlink" title="Step 1. 获取镜像"></a>Step 1. 获取镜像</h2><p>国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.</p>
-<p>不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.</p>
-<p>我使用的是DaoCloud提供的(免费使用, 需要注册一个账号, 之后可以参考<a href="https://www.daocloud.io/mirror" target="_blank" rel="external">Docker 加速器</a>进行配置)</p>
-<p>稍微要提的一点是, 在较新版本的Docker for Mac中, Preferences里Advanced标签页下的Registry mirrors被移到了Daemon标签页. DaoCloud的配置说明里还未更新这一点.</p>
-<p>接下来, 按书中所说:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 实际上, 我全程都不需要sudo, 因此省略掉sudo</div><div class="line"># 如果某条命令因为权限问题, 可以试试加上sudo</div><div class="line">docker pull ubuntu </div><div class="line">docker pull django</div><div class="line">docker pull haproxy</div><div class="line">docker pull redis</div></pre></td></tr></table></figure>
-<p>之后执行<code>docker images</code>, 预期的输出类似:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</div><div class="line">redis               latest              1a8a9ee54eb7        38 hours ago        183 MB</div><div class="line">haproxy             latest              74cb0bec9b30        3 weeks ago         135 MB</div><div class="line">django              latest              eb40dcf64078        8 weeks ago         436 MB</div><div class="line">ubuntu              14.04               aae2b63c4946        2 months ago        188 MB</div></pre></td></tr></table></figure>
-<hr>
-<h2 id="Step-2-启动容器"><a href="#Step-2-启动容器" class="headerlink" title="Step 2. 启动容器"></a>Step 2. 启动容器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"># 书中没有提到, 不过想想就知道, 需要先在主机上创建将要挂载到容器里的文件夹:</div><div class="line">mkdir ~/Projects</div><div class="line">cd ~/Projects</div><div class="line"># 书中说在利用Redis镜像启动容器时会自动挂载, 但是我实际操作时并没有...</div><div class="line"># 所以我们就自己来进行挂载吧</div><div class="line">mkdir Redis Redis/Master Redis/Slave1 Redis/Slave2</div><div class="line">mkdir Django Django/APP1 Django/APP2</div><div class="line">mkdir HAProxy</div><div class="line"></div><div class="line"></div><div class="line"># 打开6个终端, 依次为每个终端执行以下其中一个命令:</div><div class="line"># 终端 1</div><div class="line">docker run -it --name redis-master -v ~/Projects/Redis/Master:/data redis /bin/bash</div><div class="line"># 终端 2</div><div class="line">docker run -it --name redis-slave1 --link redis-master:master -v ~/Projects/Redis/Slave1:/data redis /bin/bash</div><div class="line"># 终端 3</div><div class="line">docker run -it --name redis-slave2 --link redis-master:master -v ~/Projects/Redis/Slave2:/data redis /bin/bash</div><div class="line"># 终端 4</div><div class="line">docker run -it --name APP1 --link redis-master:db -v ~/Projects/Django/App1:/usr/src/app django /bin/bash</div><div class="line"># 终端 5</div><div class="line">docker run -it --name APP2 --link redis-master:db -v ~/Projects/Django/App2:/usr/src/app django /bin/bash</div><div class="line"># 终端 6</div><div class="line">docker run -it --name HAProxy --link APP1:APP1 --link APP2:APP2 -p 6301:6301 -v ~/Projects/HAProxy:/tmp haproxy /bin/bash</div></pre></td></tr></table></figure>
-<hr>
-<h2 id="Step3-配置Redis"><a href="#Step3-配置Redis" class="headerlink" title="Step3. 配置Redis"></a>Step3. 配置Redis</h2><p>书中说”利用启动配置文件模板来创建启动配置文件”, 但是并没有提供”启动配置文件模板”(也许是我没找到?)</p>
-<p>那么, 我们可以自己从<a href="http://download.redis.io/redis-stable/redis.conf" target="_blank" rel="external">redis.conf</a>下载原始的配置文件, 修改并放到<code>~/Projects/Redis/&lt;相应文件夹&gt;</code>下.</p>
-<p>然后对于<code>redis-master</code>, 要修改这一些内容(“A =&gt; B”代表把A修改为B):</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">demonize no =&gt; demonize yes</div><div class="line"></div><div class="line"># 其实不修改也可以, 直接注释也可以</div><div class="line">pidfile /var/run/redis_6379.pid =&gt; pidfile /var/run/redis.pid</div><div class="line"></div><div class="line"># 如果不修改, slave将无法同步master, 会提示&quot;Error condition on socket for SYNC: Connection refused&quot;</div><div class="line">bind 127.0.0.1 =&gt; bind 0.0.0.0</div></pre></td></tr></table></figure>
-<p>对于<code>redis-slave1</code> <code>redis-slave2</code>, 需要修改:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">demonize no =&gt; demonize yes</div><div class="line"></div><div class="line"># 其实不修改, 或者直接注释掉也可以</div><div class="line">pidfile /var/run/redis_6379.pid =&gt; pidfile /var/run/redis.pid</div><div class="line"></div><div class="line">slaveof master 6379</div></pre></td></tr></table></figure>
-<p>启动redis(终端1, 2, 3):</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /data</div><div class="line"># 不知道为什么书中还要把redis.conf复制到/usr/local/bin下</div><div class="line">redis-server redis.conf</div></pre></td></tr></table></figure>
-<hr>
-<h2 id="Step-4-配置Django和HAProxy"><a href="#Step-4-配置Django和HAProxy" class="headerlink" title="Step 4. 配置Django和HAProxy"></a>Step 4. 配置Django和HAProxy</h2><p>这部分书中讲的没什么大问题, 就提以下几点:</p>
-<ol>
-<li><p>修改完Django的几个文件后, 不用执行书中所述的<code>python manage.py syncdb</code>, 这个命令已经不需要且不存在了.</p>
-</li>
-<li><p>haproxy.cfg也不需要复制到<code>/usr/local/sbin</code>下.</p>
-</li>
-<li><p>HAProxy容器的IP地址应该用<code>docker inspect HAProxy</code> </p>
-<p> (当前版本的docker可以用<code>docker inspect HAProxy --format &quot;\{\{ .NetworkSettings.IPAddress \}\}&quot;</code>来直接查看). (请自行去掉花括号前面的<code>\</code>, 在文章里去掉会导致Hexo崩溃, 囧…)</p>
-<p>不过我发现<code>http://&lt;HAProxy容器的IP&gt;:6301</code>是无法访问的…</p>
-</li>
-<li><p>可以用<code>http://localhost:6301/</code>代替上一条所说的IP在本机访问相关页面, 因为之前创建HAProxy容器时映射了6301端口</p>
-</li>
-</ol>
-<p>顺便为手懒的人提供书中要打的部分代码:</p>
-<h3 id="Projects-Django-App1-dockerweb-redisweb-helloworld-views-py"><a href="#Projects-Django-App1-dockerweb-redisweb-helloworld-views-py" class="headerlink" title="~/Projects/Django/App1/dockerweb/redisweb/helloworld/views.py"></a>~/Projects/Django/App1/dockerweb/redisweb/helloworld/views.py</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> django.shortcuts <span class="keyword">import</span> render</div><div class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</div><div class="line"></div><div class="line"><span class="keyword">import</span> redis</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">(request)</span>:</span></div><div class="line">    str = redis.__file__</div><div class="line">    str += <span class="string">"&lt;br&gt;"</span></div><div class="line">    r = redis.Redis(host=<span class="string">'db'</span>, port=<span class="number">6379</span>, db=<span class="number">0</span>)</div><div class="line">    info = r.info()</div><div class="line">    str += <span class="string">'Set Hi &lt;br&gt;'</span></div><div class="line">    r.set(<span class="string">'Hi'</span>, <span class="string">'HelloWorld-APP1'</span>)</div><div class="line">    str += <span class="string">'Get Hi: %s &lt;br&gt;'</span> % r.get(<span class="string">'Hi'</span>)</div><div class="line">    str += <span class="string">'Redis Info: &lt;br&gt;'</span></div><div class="line">    str += (<span class="string">"Ke: Info Value"</span>)</div><div class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> info:</div><div class="line">        str += <span class="string">"%s: %s &lt;br&gt;"</span> % (key, info[key])</div><div class="line">    <span class="keyword">return</span> HttpResponse(str)</div></pre></td></tr></table></figure>
-<h3 id="Projects-HAProxy-haproxy-cfg"><a href="#Projects-HAProxy-haproxy-cfg" class="headerlink" title="~/Projects/HAProxy/haproxy.cfg"></a>~/Projects/HAProxy/haproxy.cfg</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">global</div><div class="line">    log 127.0.0.1 local0</div><div class="line">    maxconn 4096</div><div class="line">    chroot /usr/local/sbin</div><div class="line">    daemon</div><div class="line">    nbproc 4</div><div class="line">    pidfile /usr/local/sbin/haproxy.pid</div><div class="line"></div><div class="line">defaults</div><div class="line">    log 127.0.0.1 local3</div><div class="line">    mode http</div><div class="line">    option dontlognull</div><div class="line">    option redispatch</div><div class="line">    retries 2</div><div class="line">    maxconn 2000</div><div class="line">    balance roundrobin</div><div class="line">    timeout connect 5000ms</div><div class="line">    timeout client 50000ms</div><div class="line">    timeout server 50000ms</div><div class="line"></div><div class="line">listen redis_proxy </div><div class="line">    bind 0.0.0.0:6301</div><div class="line">    stats enable</div><div class="line">    stats uri /haproxy-stats</div><div class="line">        server APP1 APP1:8001 check inter 2000 rise 2 fall 5</div></pre></td></tr></table></figure>
-<hr>
-<p>嗯, 大概就是这些了…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;章节标题: 搭建你的第一个Docker应用栈&lt;/p&gt;
-&lt;p&gt;环境: Mac 
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>rmxp上最简单的自动换行</title>
-    <link href="http://blog.unown.moe/2016/12/28/rmxp%E4%B8%8A%E7%9A%84%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C/"/>
-    <id>http://blog.unown.moe/2016/12/28/rmxp上的自动换行/</id>
-    <published>2016-12-28T04:05:48.000Z</published>
-    <updated>2016-12-28T06:26:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>RMXP中ruby的版本是1.8.3, 所以正则表达式的字符集不支持多字节字符, 更不用提\p{xxx}了…</p>
-<p>于是, 用于分块的正则表达式我写成了这样(没有考虑分词, 也没有考虑截断过长的单词):</p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 汉字, 可能不全. 估计没包含扩展区的汉字, 也不知道日式汉字的情况...</span></div><div class="line">HanZi= <span class="string">'(?:\xe4[\xb8-\xbf][\x80-\xbf]|[\xe5-\xe8][\x80-\xbf][\x80-\xbf]|\xe9[\x80-\xbd][\x80-\xbf]|\xe9\xbe[\x80-\xa5])'</span></div><div class="line"><span class="comment"># 假名, 但是似乎没有全角假名...</span></div><div class="line">Kana = <span class="string">'(?:(?:\xE3\x81[\x81-\xBF]|\xE3\x82[\x80-\x93]|\xE3\x83\xBC)|(?:\xE3\x82[\xA1-\xBF]|\xE3\x83[\x80-\xB6]|\xE3\x83\xBC))'</span></div><div class="line"></div><div class="line"><span class="comment"># 拉丁字母, 可能不全...</span></div><div class="line">LatinCharSet = <span class="string">'[a-zA-ZÀÁÂÃÄÅàáâãäåĀāĂăĄąÇçĆćĈĉĊċČčÐðĎďĐđÈÉÊËèéêëĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłÑñŃńŅņŇňŉŊŋÒÓÔÕÖØòóôõöøŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšſŢţŤťŦŧÙÚÛÜùúûüŨũŪūŬŭŮůŰűŲųŴŵÝýÿŶŷŸŹźŻżŽž]'</span></div><div class="line"><span class="comment"># 全角Ａ-Ｚ</span></div><div class="line">FullWidthLatin = <span class="string">'(?:\xef(?:\xbc[\xa1-\xba]|\xbd[\x81-\x9a]))'</span></div><div class="line"><span class="comment"># 全角数字</span></div><div class="line">FullWidthNumber = <span class="string">'(?:\xef\xbc[\x90-\x99])'</span></div><div class="line"><span class="comment"># 希腊字母, 可能不全...</span></div><div class="line">GreekCharSet = <span class="string">'[Ά-ώ]'</span></div><div class="line"><span class="comment"># 单词</span></div><div class="line">WesternLatinWord = <span class="regexp">/(?:<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:LatinCharSet</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:GreekCharSet</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:FullWidthLatin</span>&#125;</span>|[0-9]|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:FullWidthNumber</span>&#125;</span>)+\-?/</span></div><div class="line"></div><div class="line"><span class="comment"># 不能再行首出现的标点</span></div><div class="line">NotAllowedAtStartSet = <span class="string">'[\)\]\&#125;&gt;\.,\!?;:\-~"\'%]'</span></div><div class="line"><span class="comment">#↓ 。？！，、；：～…）】”’》﹞＞〗〉〕›］」』－</span></div><div class="line">NotAllowedAtStartFullWidth = <span class="string">'(?:\xe2\x80[\x99\x9d\xa6\xba]|\xe3\x80[\x81\x82\x89\x8b\x8d\x8f\x91\x95\x97]|\xef(?:\xb9\x9e|\xbc[\x81\x89\x8c\x8d\x9a\x9b\x9e\x9f\xbd]|\xbd\x9e))'</span></div><div class="line">NotAllowedAtStart = <span class="regexp">/(?:<span class="subst">#&#123;NotAllowedAtStartSet&#125;</span>|<span class="subst">#&#123;NotAllowedAtStartFullWidth&#125;</span>)/</span></div><div class="line"></div><div class="line"><span class="comment"># 不能再行尾出现的标点</span></div><div class="line">NotAllowedAtEndSet = <span class="string">'[\(\[\&#123;&lt;\$@]'</span></div><div class="line"><span class="comment">#↓ ﹤（【“‘《﹝＜〖〈〔‹「『</span></div><div class="line">NotAllowedAtEndFullWidth = <span class="string">'(?:\xef(?:\xb9[\xa4\x9d]|\xbc[\x88\x9c]))|(?:\xe3(?:\x80[\x90\x8a\x96\x88\x94\x8c\x8e]))|(?:\xe2(?:\x80[\x9c\x98\xb9]))'</span></div><div class="line">NotAllowedAtEnd = <span class="regexp">/(?:<span class="subst">#&#123;NotAllowedAtEndSet&#125;</span>|<span class="subst">#&#123;NotAllowedAtEndFullWidth&#125;</span>)/</span></div><div class="line"></div><div class="line"><span class="comment"># 最终拼起来的正则表达式</span></div><div class="line">LineBreakingRx = <span class="regexp">/(?:\n|\s+|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtEnd</span>&#125;</span>*(<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:HanZi</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:Kana</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:WesternLatinWord</span>&#125;</span>|\S)<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtStart</span>&#125;</span>*)\s*/n</span></div></pre></td></tr></table></figure>
-<p>1.9往后版本的ruby(也就是说RMVA就可以使用了), 上面的那段正则可以写成这样:</p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 不能再行首出现的标点</span></div><div class="line">NotAllowedAtStartSet = <span class="regexp">/[\)\]\&#125;&gt;\.,\!?;:\-~"\'%。？！，、；：～…）】”’》﹞＞〗〉〕›］」』－]/</span></div><div class="line"></div><div class="line"><span class="comment"># 不能再行尾出现的标点</span></div><div class="line">NotAllowedAtEndSet = <span class="regexp">/[\(\[\&#123;&lt;\$@﹤（【“‘《﹝＜〖〈〔‹「『]/</span></div><div class="line"></div><div class="line"><span class="comment"># 最终拼起来的正则表达式</span></div><div class="line">LineBreakingRx = <span class="regexp">/(?:\n|\s+|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtEndSet</span>&#125;</span>*([\p&#123;Han&#125;\p&#123;Hiragana&#125;\p&#123;Katakana&#125;ー－]|[\p&#123;Latin&#125;\p&#123;Greek&#125;\p&#123;N&#125;]+\-?|\S)<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtStartSet</span>&#125;</span>*)\s*/</span></div></pre></td></tr></table></figure>
-<p>简洁了不止一点半点, 而且不会漏字符…</p>
-<hr>
-<p>Line breaking, 则是稍微修改了一下游戏脚本中原有的函数, 最终修改完的代码如下:</p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">getBrokenLines</span><span class="params">(bitmap,value,width)</span></span></div><div class="line">  x=<span class="number">0</span></div><div class="line">  lines=[]</div><div class="line"></div><div class="line">  <span class="keyword">return</span> [value] <span class="keyword">if</span> !bitmap <span class="params">||</span> bitmap.disposed? <span class="params">||</span> width&lt;=<span class="number">0</span></div><div class="line">  textmsg=value.clone</div><div class="line">  </div><div class="line">  line = <span class="string">""</span></div><div class="line">  <span class="keyword">while</span> (word = textmsg.slice!(<span class="symbol">:</span><span class="symbol">:LineBreakingRx</span>)) != <span class="literal">nil</span></div><div class="line">    <span class="keyword">if</span> word==<span class="string">""</span></div><div class="line">      lines &lt;&lt; line</div><div class="line">      <span class="keyword">break</span></div><div class="line">    <span class="keyword">end</span></div><div class="line">    <span class="keyword">if</span> word==<span class="string">"\n"</span></div><div class="line">      x=<span class="number">0</span></div><div class="line">      lines &lt;&lt; line</div><div class="line">      line = <span class="string">""</span></div><div class="line">      <span class="keyword">next</span></div><div class="line">    <span class="keyword">end</span></div><div class="line">    <span class="keyword">if</span> word &amp;&amp; word!=<span class="string">""</span></div><div class="line">      textwidth=bitmap.text_size(word).width</div><div class="line">      <span class="keyword">if</span> x&gt;<span class="number">0</span> &amp;&amp; x+textwidth&gt;=width-<span class="number">2</span></div><div class="line">        lines &lt;&lt; line</div><div class="line">        line = <span class="string">""</span></div><div class="line">        x=<span class="number">0</span></div><div class="line">      <span class="keyword">end</span></div><div class="line">      line += word</div><div class="line">      x+=textwidth</div><div class="line">    <span class="keyword">end</span></div><div class="line">  <span class="keyword">end</span></div><div class="line">  lines &lt;&lt; line</div><div class="line">  <span class="keyword">return</span> lines</div><div class="line"><span class="keyword">end</span></div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;RMXP中ruby的版本是1.8.3, 所以正则表达式的字符集不支持多字节字
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>QTU第五届交流赛补完 (施工中)</title>
-    <link href="http://blog.unown.moe/2016/11/28/QTU%E7%AC%AC%E4%BA%94%E5%B1%8A%E4%BA%A4%E6%B5%81%E8%B5%9B%E8%A1%A5%E5%AE%8C/"/>
-    <id>http://blog.unown.moe/2016/11/28/QTU第五届交流赛补完/</id>
-    <published>2016-11-28T07:30:41.000Z</published>
-    <updated>2016-11-29T13:55:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>竞赛地址: <a href="http://115.28.203.224/contest.php?cid=1014" target="_blank" rel="external">http://115.28.203.224/contest.php?cid=1014</a></p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: QTU第五届交流赛补完 (施工中)<br>date: “2016-11-28T15:30:41+00:00”T+00:00<br>tags: [contest, solution]</p>
+<h2 id="catalog-contests"><a href="#catalog-contests" class="headerlink" title="catalog: contests"></a>catalog: contests</h2><p>竞赛地址: <a href="http://115.28.203.224/contest.php?cid=1014" target="_blank" rel="external">http://115.28.203.224/contest.php?cid=1014</a></p>
 <h2 id="A-yeweiyang的打印服务"><a href="#A-yeweiyang的打印服务" class="headerlink" title="A. yeweiyang的打印服务"></a>A. yeweiyang的打印服务</h2><p><a href="http://115.28.203.224/problem.php?id=1353" target="_blank" rel="external">http://115.28.203.224/problem.php?id=1353</a></p>
 <p><del>思路不是很难, 关键是要能正确写出二分法…</del></p>
 <p>谜之输出超限. 并不确定二分是否正确…</p>
@@ -237,103 +147,23 @@
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;竞赛地址: &lt;a href=&quot;http://115.28.203.224/c
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
     
-      <category term="contest" scheme="http://blog.unown.moe/tags/contest/"/>
-    
-      <category term="solution" scheme="http://blog.unown.moe/tags/solution/"/>
-    
   </entry>
   
   <entry>
-    <title>日记 2016-11-26</title>
-    <link href="http://blog.unown.moe/2016/11/26/%E6%97%A5%E8%AE%B0-2016-11-26/"/>
-    <id>http://blog.unown.moe/2016/11/26/日记-2016-11-26/</id>
-    <published>2016-11-26T09:10:09.000Z</published>
-    <updated>2016-11-26T09:18:35.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/Solution-HDU-2029/"/>
+    <id>http://blog.unown.moe/2017/06/09/Solution-HDU-2029/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><span id="encrypt-message">Please enter the password to read the blog.</span><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="password" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX19QHfm2R7yim1o1zWdLjqz8kx2XM3aI6NnBtdQs8DNQMcDOpLvqysH0Nx3WZAwnk9hQvDqdcDi4wBYYUOF5LXcIL1dXzFPawZ1YvF0uCDIeI0LIYP9cy/rm6pOGDEmliRYUv2D4uYRs/CdDsHnWG+WyCf4mPXrFL8MYeGSoYpe5q7Tld75PSi4+PZp3Fzuw+hKxwUvFAjf6HBdxB5w7/OId1A0ceWF5DWAFtxVQSceH2CMnD/wsVYot4elSb+7H7Dl2l0y/Sx5N8Bk3SYdZleGcCJJGaHng63XlOAQuJomWfStmFg+ZyiZb/5Dvg8DqWaUH7hIr22DteUdOjweD2LshUHYiqv7fYqjGdF2m1xFN8cLZsakB91aRI5b7UgOjsnBA4wOwQwPVqUoYbOshh9s0T3Blzj8/wH2ol6vpgocopzhsIr+0zg5zvlxqyXl4ugA20sn5QXAJUIh0+aQxTcMCgsCbg4J2bVvj1VNFEzQvAMlaUHykM8hSRkZZbQVvPum4MSEeI6NGTpM5Ql3/7w9sco2GxC/mf6lhzAAwHK/02DWc9qKhv3GzxXvfb+5gjcLKu85J0uF2jQWuw03WkO8jN3PQfP+QIWvG4ThdvJdwfQME9PqsZzcfaWlwWiLV7fZEQR91OZ6uvobvBMlcgU8fBjG4LZBgXU3LYKkBCnfAi6kKDWj2C+7CKEal5MwkHxWLt8zx/yODY7r6phVO94HPn6HF9SYBy3P1XCikQqKOFwmcaiDp1s3Dwh1nGFUePQ8/tp1cAIjHUg220TT9o9rzmkBtrZbf2B+WpnSQ5wO4M4S+tprRStJwEh8v4wsIg9IDN1FMcyiJBm0GuPlq7TAiPjMvyTK9RUaIIH2lgZqQUSz2mdlBEOfqEGuIvuumf4tCsc5aHXnRCzV7lgtInXxi3io8B7W27mXj59kb/oolszPGmi5irWMo </div>]]></content>
-    
-    <summary type="html">
-    
-      The article has been encrypted, please enter your password to view.&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="日记" scheme="http://blog.unown.moe/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Solution-HDU-2032 杨辉三角</title>
-    <link href="http://blog.unown.moe/2016/11/25/Solution-HDU-2032/"/>
-    <id>http://blog.unown.moe/2016/11/25/Solution-HDU-2032/</id>
-    <published>2016-11-25T08:02:47.000Z</published>
-    <updated>2016-11-25T08:12:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2032" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2032</a></p>
-<h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><p>观察杨辉三角.</p>
-<p>对于第n行第m个数N~m~, 总满足:</p>
-<p>N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.</p>
-<hr>
-<h4 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h4><p><img src="/images/Screen Shot 2016-11-25 at 4.10.58 PM.png" alt="Screen Shot 2016-11-25 at 4.10.58 PM"></p>
-<p>其实第17行~21行是试出来的😜.</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) == <span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n+<span class="number">1</span>; i++) &#123;</div><div class="line">            <span class="keyword">int</span> x = <span class="number">1</span>;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"1"</span>);</div><div class="line">            <span class="keyword">int</span> j = <span class="number">2</span>;</div><div class="line">            <span class="keyword">for</span> (; j<span class="number">-1</span> &lt;= (i<span class="number">-1</span>)/<span class="number">2</span>; j++) &#123;</div><div class="line">                x = (i-j+<span class="number">1</span>)*x/(j<span class="number">-1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (i%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            j--;</div><div class="line">            <span class="keyword">for</span> (; j &gt; <span class="number">1</span>; j--) &#123;</div><div class="line">                x = (j<span class="number">-1</span>)*x/(i-j+<span class="number">1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;原题: &lt;a href=&quot;http://acm.hdu.edu.cn/sho
-    
-    </summary>
-    
-    
-      <category term="solution" scheme="http://blog.unown.moe/tags/solution/"/>
-    
-      <category term="HDU" scheme="http://blog.unown.moe/tags/HDU/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Solution-HDU-2031 进制转换</title>
-    <link href="http://blog.unown.moe/2016/11/25/Solution-HDU-2031/"/>
-    <id>http://blog.unown.moe/2016/11/25/Solution-HDU-2031/</id>
-    <published>2016-11-25T05:51:20.000Z</published>
-    <updated>2016-11-25T06:00:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2031" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2031</a></p>
-<h4 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h4><p>输入一个十进制数N，将它转换成R进制数输出。</p>
-<hr>
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><p>其实当<code>N=INT32_MIN</code>时是有问题的(最简单地解决方案是把x的类型改为int64_t). 不过显然TestData里没有这个数, 所以可以AC.</p>
-<p><img src="/images/Screen Shot 2016-11-25 at 1.59.17 PM.png" alt="Screen Shot 2016-11-25 at 1.59.17 PM"></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdint.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdbool.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">char</span> number[<span class="number">16</span>] = &#123; <span class="string">'0'</span>, <span class="string">'1'</span>, <span class="string">'2'</span>, <span class="string">'3'</span>, <span class="string">'4'</span>, <span class="string">'5'</span>, <span class="string">'6'</span>, <span class="string">'7'</span>, <span class="string">'8'</span>, <span class="string">'9'</span>, <span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>, <span class="string">'D'</span>, <span class="string">'E'</span>, <span class="string">'F'</span>&#125;;</div><div class="line"></div><div class="line"><span class="comment">// a*16 &gt; b </span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> base;</div><div class="line">    <span class="keyword">int32_t</span> x;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;x, &amp;base) == <span class="number">2</span>) &#123;</div><div class="line">        <span class="keyword">bool</span> isNegative = <span class="literal">false</span>;</div><div class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span>) &#123;</div><div class="line">            x = -x;</div><div class="line">            isNegative = <span class="literal">true</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">int</span> d = <span class="number">1</span>;</div><div class="line">        <span class="keyword">for</span> (; x/base &gt;= d; d *= base);</div><div class="line">        <span class="keyword">if</span> (isNegative) <span class="built_in">putchar</span>(<span class="string">'-'</span>);</div><div class="line">        <span class="keyword">for</span> (; d != <span class="number">0</span>; d /= base) &#123;</div><div class="line">            <span class="built_in">putchar</span>(number[x/d]);</div><div class="line">            x %= d;</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">putchar</span>(<span class="string">'\n'</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;原题: &lt;a href=&quot;http://acm.hdu.edu.cn/sho
-    
-    </summary>
-    
-    
-      <category term="solution" scheme="http://blog.unown.moe/tags/solution/"/>
-    
-      <category term="HDU" scheme="http://blog.unown.moe/tags/HDU/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Solution-HDU-2029</title>
-    <link href="http://blog.unown.moe/2016/11/24/Solution-HDU-2029/"/>
-    <id>http://blog.unown.moe/2016/11/24/Solution-HDU-2029/</id>
-    <published>2016-11-24T15:01:00.000Z</published>
-    <updated>2016-11-25T05:52:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2029" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2029</a></p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: Solution-HDU-2029<br>date: “2016-11-24T23:01:00+00:00”T+00:00<br>tags: [solution, HDU]</p>
+<h2 id="catalog-solutions"><a href="#catalog-solutions" class="headerlink" title="catalog: solutions"></a>catalog: solutions</h2><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2029" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2029</a></p>
 <h4 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h4><blockquote>
 <p>“回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。请写一个程序判断读入的字符串是否是“回文”。</p>
 </blockquote>
@@ -347,50 +177,193 @@
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;原题: &lt;a href=&quot;http://acm.hdu.edu.cn/sho
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
     
-      <category term="solution" scheme="http://blog.unown.moe/tags/solution/"/>
-    
-      <category term="HDU" scheme="http://blog.unown.moe/tags/HDU/"/>
-    
   </entry>
   
   <entry>
-    <title>求最大公约数的stein算法</title>
-    <link href="http://blog.unown.moe/2016/11/24/%E6%B1%82%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E7%9A%84stein%E7%AE%97%E6%B3%95/"/>
-    <id>http://blog.unown.moe/2016/11/24/求最大公约数的stein算法/</id>
-    <published>2016-11-24T08:26:01.000Z</published>
-    <updated>2016-11-25T03:57:48.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/Solution-HDU-2031/"/>
+    <id>http://blog.unown.moe/2017/06/09/Solution-HDU-2031/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code>stein算法</code>, 个人认为算是<code>更相减损法</code>的改进版. 此算法在计算大数间的最大公约数时更有优势. 详见英文维基百科相关词条<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="https://en.wikipedia.org/wiki/Binary_GCD_algorithm">[1]</span></a></sup>.</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> a, b;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;a, &amp;b);</div><div class="line">    <span class="keyword">int</span> result = gcd_stein(a, b);</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, result);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span> &amp;&amp; b%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">        a &gt;&gt;= <span class="number">1</span>;</div><div class="line">        b &gt;&gt;= <span class="number">1</span>;</div><div class="line">        c++;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span> (b%<span class="number">2</span>==<span class="number">0</span>) b &gt;&gt;= <span class="number">1</span>;</div><div class="line"></div><div class="line">    <span class="keyword">do</span> &#123;</div><div class="line">        <span class="keyword">if</span> (a &lt; b) &#123;</div><div class="line">            <span class="keyword">int</span> temp = a;</div><div class="line">            a = b;</div><div class="line">            b = temp;</div><div class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a == b) <span class="keyword">break</span>;</div><div class="line">        a = (a - b) &gt;&gt; <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (a%<span class="number">2</span> == <span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    &#125; <span class="keyword">while</span> (<span class="number">1</span>);</div><div class="line">    <span class="keyword">return</span> b &lt;&lt; c;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: Solution-HDU-2031 进制转换<br>date: “2016-11-25T13:51:20+00:00”T+00:00<br>tags: [solution, HDU]</p>
+<h2 id="catalog-solutions"><a href="#catalog-solutions" class="headerlink" title="catalog: solutions"></a>catalog: solutions</h2><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2031" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2031</a></p>
+<h4 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h4><p>输入一个十进制数N，将它转换成R进制数输出。</p>
 <hr>
-<p>附带Go语言版本:</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> a, b <span class="keyword">int</span></div><div class="line">	fmt.Scanf(<span class="string">"%d%d"</span>, &amp;a, &amp;b)</div><div class="line">	<span class="keyword">var</span> result = gcdStein(a, b)</div><div class="line">	fmt.Println(result)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">gcdStein</span><span class="params">(a, b <span class="keyword">int</span>)</span> <span class="title">int</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> c = <span class="number">0</span></div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &amp;&amp; b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span> <span class="comment">// Go的位移计算只能用在无符号整数上...</span></div><div class="line">		b /= <span class="number">2</span></div><div class="line">		c++</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		b /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">for</span> &#123;</div><div class="line">		<span class="keyword">if</span> a &lt; b &#123;</div><div class="line">			a, b = b, a</div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> a == b &#123;</div><div class="line">			<span class="keyword">break</span></div><div class="line">		&#125;</div><div class="line">		a = (a + b) &gt;&gt; <span class="number">1</span></div><div class="line">		<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">			a /= <span class="number">2</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> ; c != <span class="number">0</span>; c-- &#123;</div><div class="line">		b *= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> b</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Binary_GCD_algorithm" target="_blank" rel="external">https://en.wikipedia.org/wiki/Binary_GCD_algorithm</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><p>其实当<code>N=INT32_MIN</code>时是有问题的(最简单地解决方案是把x的类型改为int64_t). 不过显然TestData里没有这个数, 所以可以AC.</p>
+<p><img src="/images/Screen Shot 2016-11-25 at 1.59.17 PM.png" alt="Screen Shot 2016-11-25 at 1.59.17 PM"></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdint.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdbool.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">char</span> number[<span class="number">16</span>] = &#123; <span class="string">'0'</span>, <span class="string">'1'</span>, <span class="string">'2'</span>, <span class="string">'3'</span>, <span class="string">'4'</span>, <span class="string">'5'</span>, <span class="string">'6'</span>, <span class="string">'7'</span>, <span class="string">'8'</span>, <span class="string">'9'</span>, <span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>, <span class="string">'D'</span>, <span class="string">'E'</span>, <span class="string">'F'</span>&#125;;</div><div class="line"></div><div class="line"><span class="comment">// a*16 &gt; b </span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> base;</div><div class="line">    <span class="keyword">int32_t</span> x;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;x, &amp;base) == <span class="number">2</span>) &#123;</div><div class="line">        <span class="keyword">bool</span> isNegative = <span class="literal">false</span>;</div><div class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span>) &#123;</div><div class="line">            x = -x;</div><div class="line">            isNegative = <span class="literal">true</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">int</span> d = <span class="number">1</span>;</div><div class="line">        <span class="keyword">for</span> (; x/base &gt;= d; d *= base);</div><div class="line">        <span class="keyword">if</span> (isNegative) <span class="built_in">putchar</span>(<span class="string">'-'</span>);</div><div class="line">        <span class="keyword">for</span> (; d != <span class="number">0</span>; d /= base) &#123;</div><div class="line">            <span class="built_in">putchar</span>(number[x/d]);</div><div class="line">            x %= d;</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">putchar</span>(<span class="string">'\n'</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;code&gt;stein算法&lt;/code&gt;, 个人认为算是&lt;code&gt;更相减损
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
     
-      <category term="算法-数论" scheme="http://blog.unown.moe/tags/%E7%AE%97%E6%B3%95-%E6%95%B0%E8%AE%BA/"/>
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/hello-world/"/>
+    <id>http://blog.unown.moe/2017/06/09/hello-world/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<h2 id="title-Hello-World"><a href="#title-Hello-World" class="headerlink" title="title: Hello World"></a>title: Hello World</h2><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
     
   </entry>
   
   <entry>
-    <title>Solution-HDU-2028</title>
-    <link href="http://blog.unown.moe/2016/11/24/Solution-HDU-2028/"/>
-    <id>http://blog.unown.moe/2016/11/24/Solution-HDU-2028/</id>
-    <published>2016-11-24T07:24:19.000Z</published>
-    <updated>2016-11-25T05:51:52.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/Solution-HDU-2032/"/>
+    <id>http://blog.unown.moe/2017/06/09/Solution-HDU-2032/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2028" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2028</a></p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: Solution-HDU-2032 杨辉三角<br>date: “2016-11-25T16:02:47+00:00”T+00:00<br>tags: [solution, HDU]</p>
+<h2 id="catalog-solutions"><a href="#catalog-solutions" class="headerlink" title="catalog: solutions"></a>catalog: solutions</h2><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2032" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2032</a></p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><p>观察杨辉三角.</p>
+<p>对于第n行第m个数N~m~, 总满足:</p>
+<p>N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.</p>
+<hr>
+<h4 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h4><p><img src="/images/Screen Shot 2016-11-25 at 4.10.58 PM.png" alt="Screen Shot 2016-11-25 at 4.10.58 PM"></p>
+<p>其实第17行~21行是试出来的😜.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) == <span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n+<span class="number">1</span>; i++) &#123;</div><div class="line">            <span class="keyword">int</span> x = <span class="number">1</span>;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"1"</span>);</div><div class="line">            <span class="keyword">int</span> j = <span class="number">2</span>;</div><div class="line">            <span class="keyword">for</span> (; j<span class="number">-1</span> &lt;= (i<span class="number">-1</span>)/<span class="number">2</span>; j++) &#123;</div><div class="line">                x = (i-j+<span class="number">1</span>)*x/(j<span class="number">-1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (i%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            j--;</div><div class="line">            <span class="keyword">for</span> (; j &gt; <span class="number">1</span>; j--) &#123;</div><div class="line">                x = (j<span class="number">-1</span>)*x/(i-j+<span class="number">1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/rmxp%E4%B8%8A%E7%9A%84%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C/"/>
+    <id>http://blog.unown.moe/2017/06/09/rmxp上的自动换行/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: rmxp上最简单的自动换行<br>date: “2016-12-28T12:05:48+00:00”T+00:00</p>
+<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>RMXP中ruby的版本是1.8.3, 所以正则表达式的字符集不支持多字节字符, 更不用提\p{xxx}了…</p>
+<p>于是, 用于分块的正则表达式我写成了这样(没有考虑分词, 也没有考虑截断过长的单词):</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 汉字, 可能不全. 估计没包含扩展区的汉字, 也不知道日式汉字的情况...</span></div><div class="line">HanZi= <span class="string">'(?:\xe4[\xb8-\xbf][\x80-\xbf]|[\xe5-\xe8][\x80-\xbf][\x80-\xbf]|\xe9[\x80-\xbd][\x80-\xbf]|\xe9\xbe[\x80-\xa5])'</span></div><div class="line"><span class="comment"># 假名, 但是似乎没有全角假名...</span></div><div class="line">Kana = <span class="string">'(?:(?:\xE3\x81[\x81-\xBF]|\xE3\x82[\x80-\x93]|\xE3\x83\xBC)|(?:\xE3\x82[\xA1-\xBF]|\xE3\x83[\x80-\xB6]|\xE3\x83\xBC))'</span></div><div class="line"></div><div class="line"><span class="comment"># 拉丁字母, 可能不全...</span></div><div class="line">LatinCharSet = <span class="string">'[a-zA-ZÀÁÂÃÄÅàáâãäåĀāĂăĄąÇçĆćĈĉĊċČčÐðĎďĐđÈÉÊËèéêëĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłÑñŃńŅņŇňŉŊŋÒÓÔÕÖØòóôõöøŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšſŢţŤťŦŧÙÚÛÜùúûüŨũŪūŬŭŮůŰűŲųŴŵÝýÿŶŷŸŹźŻżŽž]'</span></div><div class="line"><span class="comment"># 全角Ａ-Ｚ</span></div><div class="line">FullWidthLatin = <span class="string">'(?:\xef(?:\xbc[\xa1-\xba]|\xbd[\x81-\x9a]))'</span></div><div class="line"><span class="comment"># 全角数字</span></div><div class="line">FullWidthNumber = <span class="string">'(?:\xef\xbc[\x90-\x99])'</span></div><div class="line"><span class="comment"># 希腊字母, 可能不全...</span></div><div class="line">GreekCharSet = <span class="string">'[Ά-ώ]'</span></div><div class="line"><span class="comment"># 单词</span></div><div class="line">WesternLatinWord = <span class="regexp">/(?:<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:LatinCharSet</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:GreekCharSet</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:FullWidthLatin</span>&#125;</span>|[0-9]|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:FullWidthNumber</span>&#125;</span>)+\-?/</span></div><div class="line"></div><div class="line"><span class="comment"># 不能再行首出现的标点</span></div><div class="line">NotAllowedAtStartSet = <span class="string">'[\)\]\&#125;&gt;\.,\!?;:\-~"\'%]'</span></div><div class="line"><span class="comment">#↓ 。？！，、；：～…）】”’》﹞＞〗〉〕›］」』－</span></div><div class="line">NotAllowedAtStartFullWidth = <span class="string">'(?:\xe2\x80[\x99\x9d\xa6\xba]|\xe3\x80[\x81\x82\x89\x8b\x8d\x8f\x91\x95\x97]|\xef(?:\xb9\x9e|\xbc[\x81\x89\x8c\x8d\x9a\x9b\x9e\x9f\xbd]|\xbd\x9e))'</span></div><div class="line">NotAllowedAtStart = <span class="regexp">/(?:<span class="subst">#&#123;NotAllowedAtStartSet&#125;</span>|<span class="subst">#&#123;NotAllowedAtStartFullWidth&#125;</span>)/</span></div><div class="line"></div><div class="line"><span class="comment"># 不能再行尾出现的标点</span></div><div class="line">NotAllowedAtEndSet = <span class="string">'[\(\[\&#123;&lt;\$@]'</span></div><div class="line"><span class="comment">#↓ ﹤（【“‘《﹝＜〖〈〔‹「『</span></div><div class="line">NotAllowedAtEndFullWidth = <span class="string">'(?:\xef(?:\xb9[\xa4\x9d]|\xbc[\x88\x9c]))|(?:\xe3(?:\x80[\x90\x8a\x96\x88\x94\x8c\x8e]))|(?:\xe2(?:\x80[\x9c\x98\xb9]))'</span></div><div class="line">NotAllowedAtEnd = <span class="regexp">/(?:<span class="subst">#&#123;NotAllowedAtEndSet&#125;</span>|<span class="subst">#&#123;NotAllowedAtEndFullWidth&#125;</span>)/</span></div><div class="line"></div><div class="line"><span class="comment"># 最终拼起来的正则表达式</span></div><div class="line">LineBreakingRx = <span class="regexp">/(?:\n|\s+|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtEnd</span>&#125;</span>*(<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:HanZi</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:Kana</span>&#125;</span>|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:WesternLatinWord</span>&#125;</span>|\S)<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtStart</span>&#125;</span>*)\s*/n</span></div></pre></td></tr></table></figure>
+<p>1.9往后版本的ruby(也就是说RMVA就可以使用了), 上面的那段正则可以写成这样:</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 不能再行首出现的标点</span></div><div class="line">NotAllowedAtStartSet = <span class="regexp">/[\)\]\&#125;&gt;\.,\!?;:\-~"\'%。？！，、；：～…）】”’》﹞＞〗〉〕›］」』－]/</span></div><div class="line"></div><div class="line"><span class="comment"># 不能再行尾出现的标点</span></div><div class="line">NotAllowedAtEndSet = <span class="regexp">/[\(\[\&#123;&lt;\$@﹤（【“‘《﹝＜〖〈〔‹「『]/</span></div><div class="line"></div><div class="line"><span class="comment"># 最终拼起来的正则表达式</span></div><div class="line">LineBreakingRx = <span class="regexp">/(?:\n|\s+|<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtEndSet</span>&#125;</span>*([\p&#123;Han&#125;\p&#123;Hiragana&#125;\p&#123;Katakana&#125;ー－]|[\p&#123;Latin&#125;\p&#123;Greek&#125;\p&#123;N&#125;]+\-?|\S)<span class="subst">#&#123;<span class="symbol">:</span><span class="symbol">:NotAllowedAtStartSet</span>&#125;</span>*)\s*/</span></div></pre></td></tr></table></figure>
+<p>简洁了不止一点半点, 而且不会漏字符…</p>
+<hr>
+<p>Line breaking, 则是稍微修改了一下游戏脚本中原有的函数, 最终修改完的代码如下:</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">getBrokenLines</span><span class="params">(bitmap,value,width)</span></span></div><div class="line">  x=<span class="number">0</span></div><div class="line">  lines=[]</div><div class="line"></div><div class="line">  <span class="keyword">return</span> [value] <span class="keyword">if</span> !bitmap <span class="params">||</span> bitmap.disposed? <span class="params">||</span> width&lt;=<span class="number">0</span></div><div class="line">  textmsg=value.clone</div><div class="line">  </div><div class="line">  line = <span class="string">""</span></div><div class="line">  <span class="keyword">while</span> (word = textmsg.slice!(<span class="symbol">:</span><span class="symbol">:LineBreakingRx</span>)) != <span class="literal">nil</span></div><div class="line">    <span class="keyword">if</span> word==<span class="string">""</span></div><div class="line">      lines &lt;&lt; line</div><div class="line">      <span class="keyword">break</span></div><div class="line">    <span class="keyword">end</span></div><div class="line">    <span class="keyword">if</span> word==<span class="string">"\n"</span></div><div class="line">      x=<span class="number">0</span></div><div class="line">      lines &lt;&lt; line</div><div class="line">      line = <span class="string">""</span></div><div class="line">      <span class="keyword">next</span></div><div class="line">    <span class="keyword">end</span></div><div class="line">    <span class="keyword">if</span> word &amp;&amp; word!=<span class="string">""</span></div><div class="line">      textwidth=bitmap.text_size(word).width</div><div class="line">      <span class="keyword">if</span> x&gt;<span class="number">0</span> &amp;&amp; x+textwidth&gt;=width-<span class="number">2</span></div><div class="line">        lines &lt;&lt; line</div><div class="line">        line = <span class="string">""</span></div><div class="line">        x=<span class="number">0</span></div><div class="line">      <span class="keyword">end</span></div><div class="line">      line += word</div><div class="line">      x+=textwidth</div><div class="line">    <span class="keyword">end</span></div><div class="line">  <span class="keyword">end</span></div><div class="line">  lines &lt;&lt; line</div><div class="line">  <span class="keyword">return</span> lines</div><div class="line"><span class="keyword">end</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E4%B8%A4%E4%B8%AA%E7%AE%80%E5%8C%96hexo%E6%93%8D%E4%BD%9C%E7%9A%84%E5%B0%8F%E8%84%9A%E6%9C%AC/"/>
+    <id>http://blog.unown.moe/2017/06/09/两个简化hexo操作的小脚本/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 两个简化hexo操作的小脚本<br>date: “2016-11-23T16:25:48+00:00”T+00:00</p>
+<h2 id="tags-sh脚本-hexo"><a href="#tags-sh脚本-hexo" class="headerlink" title="tags: [sh脚本, hexo]"></a>tags: [sh脚本, hexo]</h2><p>这里假设博客的本地目录是<code>~/Documents/hexo/blog</code>, 使用typora作为markdown编辑器.</p>
+<p>一键生成&amp;部署hexo博客:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"><span class="built_in">echo</span> 生成中...</div><div class="line"></div><div class="line"><span class="comment"># 如果生成出现问题, 可以试试取消注释以下两句. </span></div><div class="line"><span class="comment"># 不过如果这么做, 阁下每次都要完全重新编译一遍文章...</span></div><div class="line">hexo clean <span class="comment"># 然而不执行它的话, 会有bug......</span></div><div class="line">    <span class="comment">#hexo g</span></div><div class="line">rm -rf ./public/</div><div class="line"></div><div class="line">hexo g</div><div class="line"></div><div class="line"><span class="comment"># 直接放在source目录下的话, 文件会被编译...</span></div><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> ./addition/*</div><div class="line"><span class="keyword">do</span></div><div class="line">    cp -rf <span class="variable">$f</span> ./public/</div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 生成完毕~</div><div class="line"></div><div class="line"><span class="built_in">echo</span> 部署中...</div><div class="line">hexo d</div><div class="line"><span class="built_in">echo</span> 部署完毕~</div></pre></td></tr></table></figure>
+<hr>
+<p>新建博文并用typora打开:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">test</span> -z <span class="variable">$1</span></div><div class="line"><span class="keyword">then</span></div><div class="line">    <span class="built_in">read</span> -p <span class="string">'请输入文章标题:'</span> para</div><div class="line"><span class="keyword">else</span></div><div class="line">    para=<span class="variable">$@</span></div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line">ret=`hexo n <span class="string">"<span class="variable">$para</span>"</span>`</div><div class="line">file=`<span class="built_in">echo</span> <span class="variable">$ret</span> |sed <span class="string">'s/INFO Created: ~\(.*\)/\1/g'</span>`</div><div class="line">open <span class="_">-a</span> typora ~/<span class="variable">$file</span> <span class="comment"># 如果阁下是用MacOS, 请确保安装了typora. 如果阁下用的不是MacOS, 这里需要自行修改.</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E4%B8%80%E4%B8%AATCG%E7%9A%84%E5%8E%9F%E5%9E%8B/"/>
+    <id>http://blog.unown.moe/2017/06/09/一个TCG的原型/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 一个TCG的原型<br>date: “2017-02-18T17:48:44+00:00”T+00:00<br>tags:</p>
+<hr>
+<ol>
+<li>卡组内卡牌数量: 至少N张, 至多不限. 有同名卡限制.</li>
+<li>卡牌种类: 使者, 其他.</li>
+<li>使者拥有属性和种族, 或者其他什么的. 还有费用, 价值, ATK/DEF, 阶段效果等数值</li>
+<li>回合流程: 回合开始阶段 -&gt; 抽牌阶段 -&gt; 主要阶段 -&gt; 回合结束阶段 -&gt; (弃牌阶段).</li>
+<li>当前回合的玩家进入主要阶段, 即可宣言攻击, 攻击结束后, 横置使者. 攻击无穿刺, 由攻击者选择目标, A.AKT&gt;=D.DEF即战破. 被战破的使者将叠放于攻击者的牌之下.对方场上还有未横置的使者时无法直接攻击对方. 下次回合开始将横置的使者复位.</li>
+<li>随着使者下方倒置的牌增减, 使者的效果和价值也会发生改变.</li>
+<li>主要阶段时, 可以选中几张非横置使者, 若这些牌提供的价值大于等于需要召唤的使者/需要发动的其他牌, 可以将那些选中的牌送入墓地, 召唤该使者/发动该牌.</li>
+<li>其他类牌中也有有临时提供价值效果的牌.</li>
+<li>使用堆叠机制.</li>
+<li>[(触发/启动)发动条件] (生效条件) 效果. 如: [(启动) (支付费用A*x+转化B|去除叠放C)+选择火属性使者] 若该使者叠放数≥2, 消灭该使者. </li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/Solution-HDU-2028/"/>
+    <id>http://blog.unown.moe/2017/06/09/Solution-HDU-2028/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: Solution-HDU-2028<br>date: “2016-11-24T15:24:19+00:00”T+00:00<br>tags: [solution, HDU]</p>
+<h2 id="catalog-solutions"><a href="#catalog-solutions" class="headerlink" title="catalog: solutions"></a>catalog: solutions</h2><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2028" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2028</a></p>
 <h4 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h4><blockquote>
 <p>求n个数的最小公倍数。</p>
 </blockquote>
@@ -405,45 +378,23 @@
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;原题: &lt;a href=&quot;http://acm.hdu.edu.cn/sho
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
     
-      <category term="solution" scheme="http://blog.unown.moe/tags/solution/"/>
-    
-      <category term="HDU" scheme="http://blog.unown.moe/tags/HDU/"/>
-    
   </entry>
   
   <entry>
-    <title>日记 2016-11-24</title>
-    <link href="http://blog.unown.moe/2016/11/24/%E6%97%A5%E8%AE%B0-2016-11-24/"/>
-    <id>http://blog.unown.moe/2016/11/24/日记-2016-11-24/</id>
-    <published>2016-11-24T06:45:59.000Z</published>
-    <updated>2016-11-24T16:05:38.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%97%A5%E5%90%8E%E5%8F%AF%E4%BB%A5%E8%80%83%E8%99%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B9%E8%BF%9B/"/>
+    <id>http://blog.unown.moe/2017/06/09/日后可以考虑的一些改进/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><span id="encrypt-message">Please enter the password to read the blog.</span><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="password" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX1+U7M9WTtCT8Lv1hePssEfnZ6Yn11MzpDK8If1YQ4KtFQB7hb2CgZZvbqeEfUPfgbRGg9ATajhTG65LYEVTCHy9cbuGwKQXhJpnKcuCzA1vTeEG+xHrQ4MKX/BekvIS4R5S6u+a1ozYozTbxgGS0Jv60W+HqZ1TIl2OFgj2lf8ars4KQocI2dP7J6ueA42M4UrdGyYp/YOcQsOH1zFVFN6MXfjex7TZ/lHipscuNFGJfZC77f9VKmwTYpw0ERjCbCE3Q6FB87QtbAj+2dWUJeKpUSKztBIAb56hoTKnyjQF0Dd91VjnmR8emG96D9eLJbCIA5JwGH+Q9ZE4TgmRhW0SuQjdTK6Stnw67eM7nOe8GBpxAGO7/g4IxZ89B7H5osoijaCshCECxa6R3EVMMwkL9O9dSFhfhYMNIXizD8HJB+bexJx0G100OlvQxBW0iBjrIIo3tKpgBZrvjJs2bIIoyCvCx/WwbmdeNqVMFtcBZ0IGtw4ivukB3wCwmkS59kF7OHECclXU/3wZjM022rlT/430CdZ5g9qHy3zvxhZPECc+h5y/2PlfEf1xlKntwINr3t6AcYQVVCedMjLItDVXWIRqji1V+iGpc81ieZjp9ZIRKHC1Tm09n5jnZWNiAq0DVdl2u/T1c7nsg1KbPBcUo4sELE3g+Jv/NpDI58Gy0GWNm8sRxcEKlkIqhNVUwDIbj7I09S7StobjKl1mTwHHBwsAVL2d7O18KlAidOPYY9Z9G0yjhUrRCZbbDfjWN9AiWyru4iHV9TJ7vL1mCpje8BOBwzy/ocMieFU4dErhPtBtUQiqOhz6aFDqfrRB8ZSIoWjl/fCpRChlZaGw1+oFFyEc1ZcO0kHcXTU0+of6PlF0GiJXuyO13A+6u6CDg9jRYFleD2IAGSPxAOBHIkuxQEg/iQ96iRsnFMpQ90cszE9OhamOPyZbdKUDQWoquFaUct9H7Nz37lpVv8Y9E0YMOuz+Scu7iyOQmZAdow+BuKlaiQKbq634kKJJbtPeJTNonqT2JaJ/5r54OUNlgH10/zbT/C0GRJSYkJxzQ2uN7PDYEXffR0fYOoC61Q5r+WCXWfUqXyg1By+3yr4nXKAPH2y8p8r0VcytWfhenTo/8PXmH9O8rCJS/Y9AcOJkRnGbkh7lGKbb0spILaSgUdQx1gsxF2gyMo+U98B4hsvCk08ZJA0ijEbuvH76B2AO40x0DPbwHLXN8sJaR4AjkH1Y7PptDbqDt6ifO6VEkBYFWHVQKTcWcEctQO6pGU1/W33tSK8guXt9yFi1h76tfOJzRroFSDiL3c57J0Vb+3lkUGPUTLqkvsjgCDef24E6jyjNpxBJxD2j8WgI8aXDXfkP4VgqIQdmrnkQQuTBQeWNcYTCbAZVOqibU8t25ar5YdwOctN3UkNnptEhUHrTM18MTVgIKpxdFQQwisO17zplnIzrbvdVvlR0cZXNJEDtlrqMlqLiBJJROjiaJLNDKCkZcN/c2aZmI6MfN8UUTPteKzgvZXn0TM4sPuvzwoCUH+4RL5sbyNje9g9E28Ytro4TFTHbBrGeEdJ/zEjLm+5mm38CgFI32fPV++DKl2zIv1ifVTK2sHGEqg== </div>]]></content>
-    
-    <summary type="html">
-    
-      The article has been encrypted, please enter your password to view.&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="日记" scheme="http://blog.unown.moe/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日后可以考虑的一些改进</title>
-    <link href="http://blog.unown.moe/2016/11/24/%E6%97%A5%E5%90%8E%E5%8F%AF%E4%BB%A5%E8%80%83%E8%99%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%94%B9%E8%BF%9B/"/>
-    <id>http://blog.unown.moe/2016/11/24/日后可以考虑的一些改进/</id>
-    <published>2016-11-24T05:43:41.000Z</published>
-    <updated>2016-11-25T03:59:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 日后可以考虑的一些改进<br>date: “2016-11-24T13:43:41+00:00”T+00:00</p>
+<h2 id="tags-hexo"><a href="#tags-hexo" class="headerlink" title="tags: hexo"></a>tags: hexo</h2><ul>
 <li>每次生成时建立索引并push到服务器上, 由服务器处理站内搜索.</li>
 </ul>
 <ul>
@@ -458,74 +409,187 @@
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;ul&gt;
-&lt;li&gt;每次生成时建立索引并push到服务器上, 由服务器处理站内搜索.
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
     
-      <category term="hexo" scheme="http://blog.unown.moe/tags/hexo/"/>
-    
   </entry>
   
   <entry>
-    <title>两个简化hexo操作的小脚本</title>
-    <link href="http://blog.unown.moe/2016/11/23/%E4%B8%A4%E4%B8%AA%E7%AE%80%E5%8C%96hexo%E6%93%8D%E4%BD%9C%E7%9A%84%E5%B0%8F%E8%84%9A%E6%9C%AC/"/>
-    <id>http://blog.unown.moe/2016/11/23/两个简化hexo操作的小脚本/</id>
-    <published>2016-11-23T08:25:48.000Z</published>
-    <updated>2016-11-25T03:53:56.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%95%B4%E7%90%86%E3%80%8ADocker%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91%E3%80%8B%E4%B8%80%E4%B9%A62.3%E7%AB%A0%E8%8A%82%E7%9A%84%E5%86%85%E5%AE%B9/"/>
+    <id>http://blog.unown.moe/2017/06/09/整理《Docker容器与容器云》一书2.3章节的内容/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这里假设博客的本地目录是<code>~/Documents/hexo/blog</code>, 使用typora作为markdown编辑器.</p>
-<p>一键生成&amp;部署hexo博客:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"><span class="built_in">echo</span> 生成中...</div><div class="line"></div><div class="line"><span class="comment"># 如果生成出现问题, 可以试试取消注释以下两句. </span></div><div class="line"><span class="comment"># 不过如果这么做, 阁下每次都要完全重新编译一遍文章...</span></div><div class="line">hexo clean <span class="comment"># 然而不执行它的话, 会有bug......</span></div><div class="line">    <span class="comment">#hexo g</span></div><div class="line">rm -rf ./public/</div><div class="line"></div><div class="line">hexo g</div><div class="line"></div><div class="line"><span class="comment"># 直接放在source目录下的话, 文件会被编译...</span></div><div class="line"><span class="keyword">for</span> f <span class="keyword">in</span> ./addition/*</div><div class="line"><span class="keyword">do</span></div><div class="line">    cp -rf <span class="variable">$f</span> ./public/</div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 生成完毕~</div><div class="line"></div><div class="line"><span class="built_in">echo</span> 部署中...</div><div class="line">hexo d</div><div class="line"><span class="built_in">echo</span> 部署完毕~</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 整理《Docker容器与容器云》一书2.3章节的内容<br>date: “2017-02-17T19:05:23+00:00”T+00:00</p>
+<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>章节标题: 搭建你的第一个Docker应用栈</p>
+<p>环境: Mac OS, Docker 1.13.1 for Mac</p>
+<p><strong>仅用于自我学习(并非完整内容)</strong></p>
+<h2 id="Step-1-获取镜像"><a href="#Step-1-获取镜像" class="headerlink" title="Step 1. 获取镜像"></a>Step 1. 获取镜像</h2><p>国内访问Docker Hub的速度较慢, 不过所幸国内一些企业提供Docker Hub的mirror.</p>
+<p>不过, 国内的mirror中image的版本可能会旧一些, 如果介意的话还请斟酌.</p>
+<p>我使用的是DaoCloud提供的(免费使用, 需要注册一个账号, 之后可以参考<a href="https://www.daocloud.io/mirror" target="_blank" rel="external">Docker 加速器</a>进行配置)</p>
+<p>稍微要提的一点是, 在较新版本的Docker for Mac中, Preferences里Advanced标签页下的Registry mirrors被移到了Daemon标签页. DaoCloud的配置说明里还未更新这一点.</p>
+<p>接下来, 按书中所说:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 实际上, 我全程都不需要sudo, 因此省略掉sudo</div><div class="line"># 如果某条命令因为权限问题, 可以试试加上sudo</div><div class="line">docker pull ubuntu </div><div class="line">docker pull django</div><div class="line">docker pull haproxy</div><div class="line">docker pull redis</div></pre></td></tr></table></figure>
+<p>之后执行<code>docker images</code>, 预期的输出类似:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</div><div class="line">redis               latest              1a8a9ee54eb7        38 hours ago        183 MB</div><div class="line">haproxy             latest              74cb0bec9b30        3 weeks ago         135 MB</div><div class="line">django              latest              eb40dcf64078        8 weeks ago         436 MB</div><div class="line">ubuntu              14.04               aae2b63c4946        2 months ago        188 MB</div></pre></td></tr></table></figure>
 <hr>
-<p>新建博文并用typora打开:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"></div><div class="line"><span class="built_in">cd</span> ~/Documents/hexo/blog</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">test</span> -z <span class="variable">$1</span></div><div class="line"><span class="keyword">then</span></div><div class="line">    <span class="built_in">read</span> -p <span class="string">'请输入文章标题:'</span> para</div><div class="line"><span class="keyword">else</span></div><div class="line">    para=<span class="variable">$@</span></div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line">ret=`hexo n <span class="string">"<span class="variable">$para</span>"</span>`</div><div class="line">file=`<span class="built_in">echo</span> <span class="variable">$ret</span> |sed <span class="string">'s/INFO Created: ~\(.*\)/\1/g'</span>`</div><div class="line">open <span class="_">-a</span> typora ~/<span class="variable">$file</span> <span class="comment"># 如果阁下是用MacOS, 请确保安装了typora. 如果阁下用的不是MacOS, 这里需要自行修改.</span></div></pre></td></tr></table></figure>
+<h2 id="Step-2-启动容器"><a href="#Step-2-启动容器" class="headerlink" title="Step 2. 启动容器"></a>Step 2. 启动容器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"># 书中没有提到, 不过想想就知道, 需要先在主机上创建将要挂载到容器里的文件夹:</div><div class="line">mkdir ~/Projects</div><div class="line">cd ~/Projects</div><div class="line"># 书中说在利用Redis镜像启动容器时会自动挂载, 但是我实际操作时并没有...</div><div class="line"># 所以我们就自己来进行挂载吧</div><div class="line">mkdir Redis Redis/Master Redis/Slave1 Redis/Slave2</div><div class="line">mkdir Django Django/APP1 Django/APP2</div><div class="line">mkdir HAProxy</div><div class="line"></div><div class="line"></div><div class="line"># 打开6个终端, 依次为每个终端执行以下其中一个命令:</div><div class="line"># 终端 1</div><div class="line">docker run -it --name redis-master -v ~/Projects/Redis/Master:/data redis /bin/bash</div><div class="line"># 终端 2</div><div class="line">docker run -it --name redis-slave1 --link redis-master:master -v ~/Projects/Redis/Slave1:/data redis /bin/bash</div><div class="line"># 终端 3</div><div class="line">docker run -it --name redis-slave2 --link redis-master:master -v ~/Projects/Redis/Slave2:/data redis /bin/bash</div><div class="line"># 终端 4</div><div class="line">docker run -it --name APP1 --link redis-master:db -v ~/Projects/Django/App1:/usr/src/app django /bin/bash</div><div class="line"># 终端 5</div><div class="line">docker run -it --name APP2 --link redis-master:db -v ~/Projects/Django/App2:/usr/src/app django /bin/bash</div><div class="line"># 终端 6</div><div class="line">docker run -it --name HAProxy --link APP1:APP1 --link APP2:APP2 -p 6301:6301 -v ~/Projects/HAProxy:/tmp haproxy /bin/bash</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="Step3-配置Redis"><a href="#Step3-配置Redis" class="headerlink" title="Step3. 配置Redis"></a>Step3. 配置Redis</h2><p>书中说”利用启动配置文件模板来创建启动配置文件”, 但是并没有提供”启动配置文件模板”(也许是我没找到?)</p>
+<p>那么, 我们可以自己从<a href="http://download.redis.io/redis-stable/redis.conf" target="_blank" rel="external">redis.conf</a>下载原始的配置文件, 修改并放到<code>~/Projects/Redis/&lt;相应文件夹&gt;</code>下.</p>
+<p>然后对于<code>redis-master</code>, 要修改这一些内容(“A =&gt; B”代表把A修改为B):</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">demonize no =&gt; demonize yes</div><div class="line"></div><div class="line"># 其实不修改也可以, 直接注释也可以</div><div class="line">pidfile /var/run/redis_6379.pid =&gt; pidfile /var/run/redis.pid</div><div class="line"></div><div class="line"># 如果不修改, slave将无法同步master, 会提示&quot;Error condition on socket for SYNC: Connection refused&quot;</div><div class="line">bind 127.0.0.1 =&gt; bind 0.0.0.0</div></pre></td></tr></table></figure>
+<p>对于<code>redis-slave1</code> <code>redis-slave2</code>, 需要修改:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">demonize no =&gt; demonize yes</div><div class="line"></div><div class="line"># 其实不修改, 或者直接注释掉也可以</div><div class="line">pidfile /var/run/redis_6379.pid =&gt; pidfile /var/run/redis.pid</div><div class="line"></div><div class="line">slaveof master 6379</div></pre></td></tr></table></figure>
+<p>启动redis(终端1, 2, 3):</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /data</div><div class="line"># 不知道为什么书中还要把redis.conf复制到/usr/local/bin下</div><div class="line">redis-server redis.conf</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="Step-4-配置Django和HAProxy"><a href="#Step-4-配置Django和HAProxy" class="headerlink" title="Step 4. 配置Django和HAProxy"></a>Step 4. 配置Django和HAProxy</h2><p>这部分书中讲的没什么大问题, 就提以下几点:</p>
+<ol>
+<li><p>修改完Django的几个文件后, 不用执行书中所述的<code>python manage.py syncdb</code>, 这个命令已经不需要且不存在了.</p>
+</li>
+<li><p>haproxy.cfg也不需要复制到<code>/usr/local/sbin</code>下.</p>
+</li>
+<li><p>HAProxy容器的IP地址应该用<code>docker inspect HAProxy</code> </p>
+<p> (当前版本的docker可以用<code>docker inspect HAProxy --format &quot;\{\{ .NetworkSettings.IPAddress \}\}&quot;</code>来直接查看). (请自行去掉花括号前面的<code>\</code>, 在文章里去掉会导致Hexo崩溃, 囧…)</p>
+<p>不过我发现<code>http://&lt;HAProxy容器的IP&gt;:6301</code>是无法访问的…</p>
+</li>
+<li><p>可以用<code>http://localhost:6301/</code>代替上一条所说的IP在本机访问相关页面, 因为之前创建HAProxy容器时映射了6301端口</p>
+</li>
+</ol>
+<p>顺便为手懒的人提供书中要打的部分代码:</p>
+<h3 id="Projects-Django-App1-dockerweb-redisweb-helloworld-views-py"><a href="#Projects-Django-App1-dockerweb-redisweb-helloworld-views-py" class="headerlink" title="~/Projects/Django/App1/dockerweb/redisweb/helloworld/views.py"></a>~/Projects/Django/App1/dockerweb/redisweb/helloworld/views.py</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> django.shortcuts <span class="keyword">import</span> render</div><div class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</div><div class="line"></div><div class="line"><span class="keyword">import</span> redis</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">(request)</span>:</span></div><div class="line">    str = redis.__file__</div><div class="line">    str += <span class="string">"&lt;br&gt;"</span></div><div class="line">    r = redis.Redis(host=<span class="string">'db'</span>, port=<span class="number">6379</span>, db=<span class="number">0</span>)</div><div class="line">    info = r.info()</div><div class="line">    str += <span class="string">'Set Hi &lt;br&gt;'</span></div><div class="line">    r.set(<span class="string">'Hi'</span>, <span class="string">'HelloWorld-APP1'</span>)</div><div class="line">    str += <span class="string">'Get Hi: %s &lt;br&gt;'</span> % r.get(<span class="string">'Hi'</span>)</div><div class="line">    str += <span class="string">'Redis Info: &lt;br&gt;'</span></div><div class="line">    str += (<span class="string">"Ke: Info Value"</span>)</div><div class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> info:</div><div class="line">        str += <span class="string">"%s: %s &lt;br&gt;"</span> % (key, info[key])</div><div class="line">    <span class="keyword">return</span> HttpResponse(str)</div></pre></td></tr></table></figure>
+<h3 id="Projects-HAProxy-haproxy-cfg"><a href="#Projects-HAProxy-haproxy-cfg" class="headerlink" title="~/Projects/HAProxy/haproxy.cfg"></a>~/Projects/HAProxy/haproxy.cfg</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">global</div><div class="line">    log 127.0.0.1 local0</div><div class="line">    maxconn 4096</div><div class="line">    chroot /usr/local/sbin</div><div class="line">    daemon</div><div class="line">    nbproc 4</div><div class="line">    pidfile /usr/local/sbin/haproxy.pid</div><div class="line"></div><div class="line">defaults</div><div class="line">    log 127.0.0.1 local3</div><div class="line">    mode http</div><div class="line">    option dontlognull</div><div class="line">    option redispatch</div><div class="line">    retries 2</div><div class="line">    maxconn 2000</div><div class="line">    balance roundrobin</div><div class="line">    timeout connect 5000ms</div><div class="line">    timeout client 50000ms</div><div class="line">    timeout server 50000ms</div><div class="line"></div><div class="line">listen redis_proxy </div><div class="line">    bind 0.0.0.0:6301</div><div class="line">    stats enable</div><div class="line">    stats uri /haproxy-stats</div><div class="line">        server APP1 APP1:8001 check inter 2000 rise 2 fall 5</div></pre></td></tr></table></figure>
+<hr>
+<p>嗯, 大概就是这些了…</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;这里假设博客的本地目录是&lt;code&gt;~/Documents/hexo/blo
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
     
-      <category term="sh脚本" scheme="http://blog.unown.moe/tags/sh%E8%84%9A%E6%9C%AC/"/>
-    
-      <category term="hexo" scheme="http://blog.unown.moe/tags/hexo/"/>
-    
   </entry>
   
   <entry>
-    <title>测试用博文</title>
-    <link href="http://blog.unown.moe/2016/11/23/%E6%B5%8B%E8%AF%95%E7%94%A8%E5%8D%9A%E6%96%87/"/>
-    <id>http://blog.unown.moe/2016/11/23/测试用博文/</id>
-    <published>2016-11-23T02:41:40.000Z</published>
-    <updated>2016-11-24T10:11:05.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%97%A5%E8%AE%B0-2016-11-24/"/>
+    <id>http://blog.unown.moe/2017/06/09/日记-2016-11-24/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><span id="encrypt-message">密码: `test测试`.</span><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="password" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 日记 2016-11-24<br>date: “2016-11-24T14:45:59+00:00”T+00:00<br>tags: 日记<br>catalogs: 日记</p>
+<h2 id="password-“-rabbit-”"><a href="#password-“-rabbit-”" class="headerlink" title="password: “:rabbit:”"></a>password: “:rabbit:”</h2><p>今日任务:</p>
+<ul>
+<li>五道题: 2/5</li>
+<li>50个单词: 0/50</li>
+</ul>
+<p>接到张育萌学长的通知, 不用再去ifLab大一新生的活动了.</p>
+<p>不过, 我还是要尽早看一遍概率统计方面的课程.</p>
+<p>这之前, 还有线性代数和高等数学等着我…</p>
+<p>相比HDUOJ, 不如先把这里的题写完: <a href="http://123.207.173.126/JudgeOnline/problemset.php" target="_blank" rel="external">http://123.207.173.126/JudgeOnline/problemset.php</a></p>
+]]></content>
     
     <summary type="html">
     
-      本博文用于测试博客功能及插件功能.
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
-      <category term="测试" scheme="http://blog.unown.moe/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="测试" scheme="http://blog.unown.moe/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
-    <title>第一贴</title>
-    <link href="http://blog.unown.moe/2016/11/23/%E7%AC%AC%E4%B8%80%E8%B4%B4/"/>
-    <id>http://blog.unown.moe/2016/11/23/第一贴/</id>
-    <published>2016-11-22T16:33:17.000Z</published>
-    <updated>2016-11-22T16:46:08.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%97%A5%E8%AE%B0-2016-11-26/"/>
+    <id>http://blog.unown.moe/2017/06/09/日记-2016-11-26/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这是我的第一篇博文.</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 日记 2016-11-26<br>date: “2016-11-26T17:10:09+00:00”T+00:00<br>tags: 日记<br>password: “:rabbit:”</p>
+<hr>
+<p>我发现, 相比于做比赛题, 现在的我更需要看书, 从零开始看…</p>
+<p>今天的比赛: <a href="http://115.28.203.224/contest.php?cid=1014" target="_blank" rel="external">http://115.28.203.224/contest.php?cid=1014</a></p>
+<p>超惨, 五小时共12题做出来2道… </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%B5%8B%E8%AF%95%E7%94%A8%E5%8D%9A%E6%96%87/"/>
+    <id>http://blog.unown.moe/2017/06/09/测试用博文/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 测试用博文<br>date: “2016-11-23T10:41:40+00:00”T+00:00<br>tags: [测试]<br>category: 测试<br>password: test测试<br>abstract: 本博文用于测试博客功能及插件功能.<br>message: “密码: <code>test测试</code>.”</p>
+<hr>
+<p>本博文用于测试博客功能及插件功能. <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Test
+">[1]</span></a></sup></p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="keyword">type</span> String2 <span class="keyword">struct</span> &#123;</div><div class="line">  str1 <span class="keyword">string</span></div><div class="line">  str2 <span class="keyword">string</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="params">(s2 String2)</span> <span class="title">combine</span><span class="params">()</span> <span class="title">string</span></span> &#123;</div><div class="line">  <span class="keyword">return</span> str1 + <span class="string">" "</span> + str2</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">  <span class="keyword">var</span> ch = <span class="built_in">make</span>(<span class="keyword">chan</span> String2, <span class="number">0</span>)</div><div class="line">  </div><div class="line">  <span class="keyword">go</span> <span class="function"><span class="keyword">func</span><span class="params">([]<span class="keyword">byte</span> a, []<span class="keyword">byte</span> b)</span></span> &#123;</div><div class="line">    ch &lt;- String2 &#123;</div><div class="line">      str1: <span class="keyword">string</span>(a),</div><div class="line">      str2: <span class="keyword">string</span>(b),</div><div class="line">    &#125;</div><div class="line">  &#125; ([]<span class="keyword">byte</span>(<span class="string">"Hello"</span>), []<span class="keyword">byte</span> &#123;<span class="string">'w'</span>, <span class="string">'o'</span>, <span class="string">'r'</span>, <span class="string">'l'</span>, <span class="string">'d'</span>&#125;)</div><div class="line">  </div><div class="line">  fmt.Println((&lt;-ch).combine())</div><div class="line">  <span class="built_in">close</span>(ch)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Test<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%B1%82%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E7%9A%84stein%E7%AE%97%E6%B3%95/"/>
+    <id>http://blog.unown.moe/2017/06/09/求最大公约数的stein算法/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 求最大公约数的stein算法<br>date: “2016-11-24T16:26:01+00:00”T+00:00</p>
+<h2 id="tags-算法-数论"><a href="#tags-算法-数论" class="headerlink" title="tags: 算法-数论"></a>tags: 算法-数论</h2><p><code>stein算法</code>, 个人认为算是<code>更相减损法</code>的改进版. 此算法在计算大数间的最大公约数时更有优势. 详见英文维基百科相关词条<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="https://en.wikipedia.org/wiki/Binary_GCD_algorithm
+">[1]</span></a></sup>.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> a, b;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;a, &amp;b);</div><div class="line">    <span class="keyword">int</span> result = gcd_stein(a, b);</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, result);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd_stein</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span> &amp;&amp; b%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">        a &gt;&gt;= <span class="number">1</span>;</div><div class="line">        b &gt;&gt;= <span class="number">1</span>;</div><div class="line">        c++;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">while</span> (a%<span class="number">2</span>==<span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span> (b%<span class="number">2</span>==<span class="number">0</span>) b &gt;&gt;= <span class="number">1</span>;</div><div class="line"></div><div class="line">    <span class="keyword">do</span> &#123;</div><div class="line">        <span class="keyword">if</span> (a &lt; b) &#123;</div><div class="line">            <span class="keyword">int</span> temp = a;</div><div class="line">            a = b;</div><div class="line">            b = temp;</div><div class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a == b) <span class="keyword">break</span>;</div><div class="line">        a = (a - b) &gt;&gt; <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (a%<span class="number">2</span> == <span class="number">0</span>) a &gt;&gt;= <span class="number">1</span>;</div><div class="line">    &#125; <span class="keyword">while</span> (<span class="number">1</span>);</div><div class="line">    <span class="keyword">return</span> b &lt;&lt; c;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<p>附带Go语言版本:</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> a, b <span class="keyword">int</span></div><div class="line">	fmt.Scanf(<span class="string">"%d%d"</span>, &amp;a, &amp;b)</div><div class="line">	<span class="keyword">var</span> result = gcdStein(a, b)</div><div class="line">	fmt.Println(result)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">gcdStein</span><span class="params">(a, b <span class="keyword">int</span>)</span> <span class="title">int</span></span> &#123;</div><div class="line">	<span class="keyword">var</span> c = <span class="number">0</span></div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &amp;&amp; b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span> <span class="comment">// Go的位移计算只能用在无符号整数上...</span></div><div class="line">		b /= <span class="number">2</span></div><div class="line">		c++</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		a /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> b%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">		b /= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">for</span> &#123;</div><div class="line">		<span class="keyword">if</span> a &lt; b &#123;</div><div class="line">			a, b = b, a</div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> a == b &#123;</div><div class="line">			<span class="keyword">break</span></div><div class="line">		&#125;</div><div class="line">		a = (a + b) &gt;&gt; <span class="number">1</span></div><div class="line">		<span class="keyword">for</span> a%<span class="number">2</span> == <span class="number">0</span> &#123;</div><div class="line">			a /= <span class="number">2</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">for</span> ; c != <span class="number">0</span>; c-- &#123;</div><div class="line">		b *= <span class="number">2</span></div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> b</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Binary_GCD_algorithm" target="_blank" rel="external">https://en.wikipedia.org/wiki/Binary_GCD_algorithm</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E7%AC%AC%E4%B8%80%E8%B4%B4/"/>
+    <id>http://blog.unown.moe/2017/06/09/第一贴/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 第一贴<br>date: “2016-11-23T00:33:17+00:00”T+00:00</p>
+<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>这是我的第一篇博文.</p>
 <p>现在已经是深夜了, 暂时也想不到什么, 就先这样吧~</p>
 <p>第一篇博文只是这么草草了事, 感觉还有点小遗憾呢…</p>
 <hr>
@@ -539,8 +603,7 @@
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;这是我的第一篇博文.&lt;/p&gt;
-&lt;p&gt;现在已经是深夜了, 暂时也想不到什么, 
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     
@@ -548,26 +611,43 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://blog.unown.moe/2016/11/22/hello-world/"/>
-    <id>http://blog.unown.moe/2016/11/22/hello-world/</id>
-    <published>2016-11-22T13:41:04.000Z</published>
-    <updated>2016-11-22T13:41:04.000Z</updated>
+    <title></title>
+    <link href="http://blog.unown.moe/2017/06/09/%E6%83%B3%E5%81%9A%E8%BF%99%E6%A0%B7%E4%B8%80%E6%AC%BE%E6%B8%B8%E6%88%8F/"/>
+    <id>http://blog.unown.moe/2017/06/09/想做这样一款游戏/</id>
+    <published>2017-06-08T18:20:25.000Z</published>
+    <updated>2017-06-08T18:20:25.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: 想做这样一款游戏<br>date: “2017-04-10T12:47:54+00:00”T+00:00</p>
+<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>读狼与香辛料, 让我对欧洲中世纪商人的行商生活产生了兴趣. (当然, 我知道行商生活是很苦的)</p>
+<p>我在想, 如果基于VR制作一款模拟那一时期商人行商的游戏, 是不是会别有一番风趣. 嗯, “欧洲中世纪马车模拟”的感觉.</p>
+<hr>
+<p>由于某个缘故, 你成为了一名旅行商人, 在一片广袤无边的土地上四处行商. </p>
+<p>地图不一定是真实的欧洲地图, 也可以像骑马与砍杀那样虚构一片地图, 或者把春秋时期的中国地图套进去(虽然明显时代背景不对), 甚至可以随机生成地图(实现这个可能是有生之年了). </p>
+<p>玩家以第一人称视角进行游戏(VR的意义所在), 驾着马车在广阔的游走, 欣赏延路上的风景. 而且玩家不一定要走固定的商路, 地图上能看到的地方基本上都能走. 这要求地图的精度要向上古卷轴、龙腾世纪、巫师等这样同类的开放世界游戏靠拢. 还不确定是否要制作城镇内部.</p>
+<p>游戏的宗旨之一便是贴近现实. 所以自然方面, 天气、气候等系统都不能少. 非自然方面, 不仅要有完整的经济系统, 甚至连国家间的政治也会有相应的模拟. 即使暂时看不到影响, 个体的商人、整体的商行都多多少少会在后台做出行动. 因为实际上从一个地点到下一个地点的路途会很长, 所以利用玩家移动的时间进行运算也无不妥.</p>
+<p>游戏会忠于还原中世纪的商贸系统. 从物价变化、币种、合约、期货, 到商行、洋行、工会、骑士团、贵族、教会的影响, 都会忠实地体现.</p>
+<p>“事件”系统则是游戏的核心之一. 除了”偶然事件”外, 还有”关联事件”, 如果有在进行剧本, 还会有”剧情事件”. 剧本有可能是游戏开始前选择的宏观大剧本, 也可能是游戏中途卷入的剧本. 剧本事件即使不会影响到角色, 但只要点燃导火索, 就会陆续发生. 多个剧本事件可以同时进行, 走向并非玩家可控.</p>
+<p>回到”关联事件”, 关联事件是以”如果XXX, 就会YYY”为形式的事件. 比如两个国家爆发了战争, 就会出现部分地区军备涨价的事件. 环境会酿成事件, 事件又会改变环境.</p>
+<p>(蝴蝶效应产生的结果总是会很有趣)</p>
+<p>玩家并不会在事件触发时/进行中收到弹出的提示窗口, 而是会直接或间接地感受到事件的发生.  最直接的就是亲身经历, 比如佣兵团劫道, 另外就是从其他人身上获得情报.</p>
+<p>玩家可以获得情报, 或是看到城镇的告示, 或是聆听酒店里两人的谈话, 或是与路上遇到的其他商人互相交换… 你可能会获得假的情报, 同样你也可以传播假的情报.</p>
+<p>行商当中人际关系也十分重要, 与商行的关系越好, 名声越好, 就越容易交易、贷款; 与商人的关系越好, 相互间越信任, 就越容易获得情报. 当然, 如果没有提前安排, 偶然遇到以前认识的旅行商人几乎是不可能的事情. 关系还包括与贵族的关系, 与教会的关系, 与劳动者的关系, 与民众的关系, 与供货方的关系… 关系是一点一点积累而来的, 但是如果处理不当, 就可能会整片地崩塌. 如果没能完成某处的某家商行的契约, 就可能会被整片地区的其他商行唾弃. 而且随着时间的发酵, 可能会愈发地严重, 最后不仅到处被讨债, 而且谁都不愿意与你做生意了.</p>
+<p>游戏可以分两个基本模式和多个难度. 除了上述的那个模式之外, 还有上帝视角模式, 省略行商的路途. 难度上来讲, 最难的难度到处需要拿笔记录各种信息, 最简单的难度即使稍微有些无脑也不容易破产, 经济模型也会有所简化.</p>
+<p>游戏后期, 你可以雇佣自己的配行商人, 甚至有机会成立自己的商行, 虽然在高难度下几乎不可能.</p>
+<hr>
+<h2 id="双人行商以及网络版"><a href="#双人行商以及网络版" class="headerlink" title="双人行商以及网络版"></a>双人行商以及网络版</h2><p>即使在单人游戏中, 玩家也可以邀请NPC一同前行, 不过大多数情况下只是临时合作罢了. (但也不是不可能有罗伦斯、赫萝那样的展开, 一起行商旅行)</p>
+<p>双人行商, 是指玩家可以邀请另一名玩家陪同自己行商, 一起沉浸在周围的景色之中. 两人间的羁绊也一定能愈来愈深吧.</p>
+<p>网络版嘛, 不是DLC就是独立作品了. 顾名思义, 大家在一个大世界中共同竞争, 呃, “EVE中世纪版”?</p>
+<h2 id="狼与香辛料"><a href="#狼与香辛料" class="headerlink" title="狼与香辛料?"></a>狼与香辛料?</h2><p>如果有机会, 好想在游戏中还原狼与香辛料中的世界.</p>
+<p>然后, 你甚至能以旁观者的视角为罗伦斯和赫萝祝福. (罗伦斯是赫萝的, 赫萝也是罗伦斯的, 谁都不能抢!)</p>
+<hr>
+<p>待续… </p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; 
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink
     
     </summary>
     

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Unown Hearn&#39;s BLOG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="—
+title: Solution-HDU-2032 杨辉三角date: “2016-11-25T16:02:47+00:00”T+00:00tags: [solution, HDU]
+catalog: solutions原题: http://acm.hdu.edu.cn/showproblem.php?pid=2032
+思路观察杨辉三角.
+对于第n行第m个数N~m~, 总满足:
+N~1~ = 1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unown Hearn's BLOG">
+<meta property="og:url" content="http://blog.unown.moe/2017/06/09/Solution-HDU-2032/index.html">
+<meta property="og:site_name" content="Unown Hearn's BLOG">
+<meta property="og:description" content="—
+title: Solution-HDU-2032 杨辉三角date: “2016-11-25T16:02:47+00:00”T+00:00tags: [solution, HDU]
+catalog: solutions原题: http://acm.hdu.edu.cn/showproblem.php?pid=2032
+思路观察杨辉三角.
+对于第n行第m个数N~m~, 总满足:
+N~1~ = 1">
+<meta property="og:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-25 at 4.10.58 PM.png">
+<meta property="og:updated_time" content="2017-06-08T18:20:25.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Unown Hearn's BLOG">
+<meta name="twitter:description" content="—
+title: Solution-HDU-2032 杨辉三角date: “2016-11-25T16:02:47+00:00”T+00:00tags: [solution, HDU]
+catalog: solutions原题: http://acm.hdu.edu.cn/showproblem.php?pid=2032
+思路观察杨辉三角.
+对于第n行第m个数N~m~, 总满足:
+N~1~ = 1">
+<meta name="twitter:image" content="http://blog.unown.moe/images/Screen Shot 2016-11-25 at 4.10.58 PM.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Unown Hearn&#39;s BLOG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Unown Hearn&#39;s BLOG</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">~UN的小窝~</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.unown.moe"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Solution-HDU-2032" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/06/09/Solution-HDU-2032/" class="article-date">
+  <time datetime="2017-06-08T18:20:25.000Z" itemprop="datePublished">2017-06-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+  	    
+  	      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><hr>
+<p>title: Solution-HDU-2032 杨辉三角<br>date: “2016-11-25T16:02:47+00:00”T+00:00<br>tags: [solution, HDU]</p>
+<h2 id="catalog-solutions"><a href="#catalog-solutions" class="headerlink" title="catalog: solutions"></a>catalog: solutions</h2><p>原题: <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2032" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2032</a></p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><p>观察杨辉三角.</p>
+<p>对于第n行第m个数N~m~, 总满足:</p>
+<p>N~1~ = 1, N~m~ = (n-m+1)/m*N~m-1~.</p>
+<hr>
+<h4 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h4><p><img src="/images/Screen Shot 2016-11-25 at 4.10.58 PM.png" alt="Screen Shot 2016-11-25 at 4.10.58 PM"></p>
+<p>其实第17行~21行是试出来的😜.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> n;</div><div class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) == <span class="number">1</span>) &#123;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n+<span class="number">1</span>; i++) &#123;</div><div class="line">            <span class="keyword">int</span> x = <span class="number">1</span>;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"1"</span>);</div><div class="line">            <span class="keyword">int</span> j = <span class="number">2</span>;</div><div class="line">            <span class="keyword">for</span> (; j<span class="number">-1</span> &lt;= (i<span class="number">-1</span>)/<span class="number">2</span>; j++) &#123;</div><div class="line">                x = (i-j+<span class="number">1</span>)*x/(j<span class="number">-1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (i%<span class="number">2</span>==<span class="number">0</span>) &#123;</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            j--;</div><div class="line">            <span class="keyword">for</span> (; j &gt; <span class="number">1</span>; j--) &#123;</div><div class="line">                x = (j<span class="number">-1</span>)*x/(i-j+<span class="number">1</span>);</div><div class="line">                <span class="built_in">printf</span>(<span class="string">" %d"</span>, x);</div><div class="line">            &#125;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">        &#125;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+  	    
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.unown.moe/2017/06/09/Solution-HDU-2032/" data-id="cj640ry8y0005lb4qf05h7bnc" class="article-share-link">Partager</a>
+      
+        <a href="http://blog.unown.moe/2017/06/09/Solution-HDU-2032/#disqus_thread" class="article-comment-link">Commentaires</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/06/09/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/06/09/rmxp上的自动换行/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">18</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/06/09/一个中世纪奇幻世界的世界观/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/QTU第五届交流赛补完/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/Solution-HDU-2029/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/Solution-HDU-2031/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/09/hello-world/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 unown (hearnxu@gmail.com)<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'unown-hearn-blog';
+  
+  var disqus_url = 'http://blog.unown.moe/2017/06/09/Solution-HDU-2032/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
